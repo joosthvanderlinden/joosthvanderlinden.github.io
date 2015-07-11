@@ -27,7 +27,7 @@ kramdown:
 # Site owner
 owner:
   name: Joost H. van der Linden
-  avatar: bio-photo.jpg
+  avatar: joost.jpg
   bio: "Applied Mathematician. Born and raised in The Netherlands. Passionate about machine learning and scientific computing."
   email: joosthvanderlinden@gmail.com
   disqus-shortname: 
