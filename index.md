@@ -9,4 +9,4 @@ image:
   creditlink: 
 ---
 
-This is the homepage.
+This is the homepage text.

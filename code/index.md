@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About me
-tags: [joost, machine learning, scientific computing, netherlands]
+title: Some code I have written
 modified: 
 comments: false
 share: false
@@ -11,4 +10,4 @@ image:
   creditlink: 
 ---
 
-About me.
+Some projects.
