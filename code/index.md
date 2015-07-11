@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Some code I have written
+title: Code
 modified: 
 comments: false
 share: false
