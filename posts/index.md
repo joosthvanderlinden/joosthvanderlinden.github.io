@@ -1,7 +1,5 @@
 ---
 layout: post-index
-title: All Posts
+title: 
 excerpt: "A List of Posts"
 ---
-
-Testing this text.

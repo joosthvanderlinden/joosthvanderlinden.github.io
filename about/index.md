@@ -3,7 +3,7 @@ layout: page
 title: About me
 tags: [joost, machine learning, scientific computing, netherlands]
 modified: 
-comments: true
+comments: false
 image:
   feature: 
   credit: 

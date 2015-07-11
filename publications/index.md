@@ -3,6 +3,7 @@ layout: page
 title: Publications
 modified: 
 excerpt: "List of publications."
+comments: false
 image:
   feature: 
   credit: 
