@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Joost H. van der Linden
 locale:           en_US
 url:              
 
@@ -26,10 +26,10 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Joost H. van der Linden
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  bio: "Applied Mathematician"
+  email: joosthvanderlinden@gmail.com
   disqus-shortname: 
   twitter: #username
   facebook: #username
@@ -40,9 +40,9 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: joosthvanderlinden
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: joosthvanderlinden
   xing: #username
   instagram: #username
   lastfm: #username
