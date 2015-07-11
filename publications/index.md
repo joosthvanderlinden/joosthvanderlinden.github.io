@@ -9,7 +9,5 @@ image:
   creditlink: 
 ---
 
-{% include _toc.html %}
-
 List of publications
 
