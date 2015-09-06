@@ -11,14 +11,12 @@ image:
   creditlink: 
 ---
 
-Click the header 
-
+Click the header to read more about my experience, or 
 <span style="cursor:hand; cursor:pointer" onClick="openAll()">
-  Show all
+  <b> show all </b>
 </span> 
- / 
 <span style="cursor:hand; cursor:pointer" onClick="closeAll()">
-  Close all
+  ( <b> close all </b>).
 </span>
 <br /><br />
 
@@ -28,15 +26,14 @@ Click the header
    related to the main header which opens them. You can add any number of collapsible headers. Clicking on
    the header when the text is seen hides the text. Additionally if a header is clicked it will automatically
    close any open text related to any other header while opening its own hidden text.<br /><br />
-   
-   <div onClick="openClose('a2')" style="cursor:hand; cursor:pointer"><b>Skill 1</b></div>
+ </div>
+
+<div onClick="openClose('a2')" style="cursor:hand; cursor:pointer"><b>Skill 1</b></div>
  <div id="a2" class="texter">
    This script works with all the newer versions of browsers like IE5+, NS6, Opera and Firefox.<br />
    This script does not work with older browsers like NSv4.x but degrades very well.<br /><br />
  </div>
  
- </div>
-
 
 
 <div onClick="openClose('a3')" style="cursor:hand; cursor:pointer"><b>Experience 1</b></div>
