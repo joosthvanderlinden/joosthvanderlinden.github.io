@@ -19,13 +19,15 @@ About me.
 
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
-<ul id="q-and-a">
+  
+  <ul id="q-and-a">
     <li><a>Question One</a>
       <div>Answer to Question One...</div>
     </li>
     <li><a>Question Two</a>
       <div>Answer to Question Two...</div>
     </li>
-</ul>
+  </ul>
+</dl>
+
+
