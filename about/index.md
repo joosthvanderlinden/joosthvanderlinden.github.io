@@ -13,10 +13,10 @@ image:
 
 Click the header to read more about my experience, or 
 <span style="cursor:hand; cursor:pointer" onClick="openAll()">
-  <b> show all </b>
+  <b> show all </b> /
 </span> 
 <span style="cursor:hand; cursor:pointer" onClick="closeAll()">
-  ( <b> close all </b>).
+  <b> close all </b>.
 </span>
 <br /><br />
 
