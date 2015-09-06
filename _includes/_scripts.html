@@ -22,8 +22,6 @@
   {% include _disqus_comments.html %}
 {% endif %}
 
-
-
 <!-- COLLAPSIBLE TEXT WITH OPEN ALL/CLOSE ALL LINK -->
 <script language="JavaScript" type="text/javascript">
 <!-- Copyright 2007, Sandeep Gangadharan -->
@@ -35,25 +33,16 @@ if (document.getElementById) {
  var divNum = new Array("a1","a2","a3");  // at the left you should add a1, a2 etc. for each header you wish to include
                                           // so if you want 4 headers you should add a1, a2, a3, a4 in the format shown
                                           // enclosed in double quotes
-function openClose(theID) 
-{
- for(var i=0; i < divNum.length; i++) 
- {
-  if (divNum[i] == theID) 
-  {
-   if (document.getElementById(divNum[i]).style.display == "block") 
-   { 
+function openClose(theID) {
+ for(var i=0; i < divNum.length; i++) {
+  if (divNum[i] == theID) {
+   if (document.getElementById(divNum[i]).style.display == "block") { 
      document.getElementById(divNum[i]).style.display = "none" 
    }
-   else 
-   { 
+   else { 
      document.getElementById(divNum[i]).style.display = "block" 
    }
   }
-  //else 
-  //{ 
-  //  document.getElementById(divNum[i]).style.display = "none"; 
-  //}
  }
 }
 
