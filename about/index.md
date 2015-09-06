@@ -21,6 +21,7 @@ Click a header to read more about my experience, or
 </span>
 . 
 
+---
 Skills
 
 - <div onClick="openClose('a1')" style="cursor:hand; cursor:pointer"><b>Python</b></div>
