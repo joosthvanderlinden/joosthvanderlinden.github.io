@@ -14,8 +14,14 @@ image:
 About me.
 
 
-<span 
-style="cursor:hand; cursor:pointer; font-family:sans-serif; font-size:12pt" onClick="openAll()">[ Open All</span> | <span style="cursor:hand; cursor:pointer; font-family:sans-serif; font-size:12pt" onClick="closeAll()">Close All ]</span><br /><br />
+<span style="cursor:hand; cursor:pointer; font-family:sans-serif; font-size:12pt" onClick="openAll()">
+  Show all
+</span> 
+ / 
+<span style="cursor:hand; cursor:pointer; font-family:sans-serif; font-size:12pt" onClick="closeAll()">
+  Close all
+</span>
+<br /><br />
 
 <div onClick="openClose('a1')" style="cursor:hand; cursor:pointer; font-family:sans-serif; font-size:12pt"><b>Job 1</b></div>
  <div id="a1" class="texter">
