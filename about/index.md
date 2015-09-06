@@ -16,7 +16,7 @@ About me.
 
 <span style="cursor:hand; cursor:pointer" onClick="openAll()">[ Open All</span> | <span style="cursor:hand; cursor:pointer" onClick="closeAll()">Close All ]</span><br /><br />
 
-<div onClick="openClose('a1')" style="cursor:hand; cursor:pointer; font-family:verdana,arial,helvetica,sans-serif; font-size:10pt"><b>1] Example & Explanation:</b></div>
+<div onClick="openClose('a1')" style="cursor:hand; cursor:pointer; font-family:serif; font-size:10pt"><b>1] Example & Explanation:</b></div>
  <div id="a1" class="texter">
    This is the hidden text that was revealed when the header was clicked. Such hidden text is generally
    related to the main header which opens them. You can add any number of collapsible headers. Clicking on
@@ -35,7 +35,8 @@ About me.
    This is one of the most compact scripts of this nature that you can find in any JavaScript archives.<br /><br />
  </div>
 
-<!-- Each collapsible header has 2 DIV tags, one is the main header that opens or closes the
+<!-- 'PT Serif', serif; 
+Each collapsible header has 2 DIV tags, one is the main header that opens or closes the
      collapsible text and the other is for the collapsible text or content. In the first DIV
      tag the text (onClick="openClose('a1')") should not be changed and in the second DIV tag
      the text (id="a1" class="texter") is required. As you add more collapsible headers the
