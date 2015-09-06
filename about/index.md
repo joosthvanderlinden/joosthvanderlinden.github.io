@@ -12,9 +12,7 @@ image:
 ---
 
 About me.
-
-
-<span style="cursor:hand; cursor:pointer; font-family:sans-serif; font-size:12pt" onClick="openAll()">
+<span style="cursor:hand; cursor:pointer" onClick="openAll()">
   Show all
 </span> 
  / 
@@ -23,7 +21,7 @@ About me.
 </span>
 <br /><br />
 
-<div onClick="openClose('a1')" style="cursor:hand; cursor:pointer"><b>Job 1</b></div>
+<div onClick="openClose('a1')" style="cursor:hand; cursor:pointer; font-family:sans-serif; font-size:12pt"><b>Job 1</b></div>
  <div id="a1" class="texter">
    This is the hidden text that was revealed when the header was clicked. Such hidden text is generally
    related to the main header which opens them. You can add any number of collapsible headers. Clicking on
