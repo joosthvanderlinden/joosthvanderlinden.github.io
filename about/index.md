@@ -11,7 +11,7 @@ image:
   creditlink: 
 ---
 
-Click the header to read more about my experience, or 
+Click each header to read more about my experience, or 
 <span style="cursor:hand; cursor:pointer" onClick="openAll()">
   <b> show all </b>
 </span> 
