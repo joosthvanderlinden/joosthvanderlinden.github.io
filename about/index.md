@@ -24,7 +24,7 @@ About me.
    close any open text related to any other header while opening its own hidden text.<br /><br />
  </div>
 
-<div onClick="openClose('a2')" style="cursor:hand; cursor:pointer; font-family:verdana,arial,helvetica,sans-serif; font-size:10pt"><b>2] Compatibility:</b></div>
+<div onClick="openClose('a2')" style="cursor:hand; cursor:pointer; font-family:sans-serif; font-size:12pt"><b>2] Compatibility:</b></div>
  <div id="a2" class="texter">
    This script works with all the newer versions of browsers like IE5+, NS6, Opera and Firefox.<br />
    This script does not work with older browsers like NSv4.x but degrades very well.<br /><br />
