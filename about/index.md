@@ -20,7 +20,6 @@ Click a header to read more about my experience, or
   <b> close all </b>
 </span>
 . 
-<br />
 
 <div onClick="openClose('a1')" style="cursor:hand; cursor:pointer"><b>Job 1</b></div>
  <div id="a1" class="texter">
