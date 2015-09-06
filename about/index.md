@@ -13,21 +13,25 @@ image:
 
 About me.
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-  
-  <ul id="q-and-a">
-    <li><a>Question One</a>
-      <div>Answer to Question One...</div>
-    </li>
-    <li><a>Question Two</a>
-      <div>Answer to Question Two...</div>
-    </li>
-  </ul>
-</dl>
+<script>
+  $(function() {
+    $( ".accordion" ).accordion();
+    $(".accordion").accordion({ header: "h3", collapsible: true, active: false ,heightStyle: "content" });
+  });
+  </script>
 
 
+<div class="accordion">
+<h3>question goes here</h3>
+    <div>
+      <p>Answer goes here</p>
+    </div>
+<h3>question goes here</h3>
+    <div>
+      <p>Answer goes here</p>
+    </div>
+</div>
