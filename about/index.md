@@ -11,7 +11,7 @@ image:
   creditlink: 
 ---
 
-Click each header to read more about my experience, or 
+Click a header to read more about my experience, or 
 <span style="cursor:hand; cursor:pointer" onClick="openAll()">
   <b> show all </b>
 </span> 
@@ -20,7 +20,7 @@ Click each header to read more about my experience, or
   <b> close all </b>
 </span>
 . 
-<br /><br />
+<br />
 
 <div onClick="openClose('a1')" style="cursor:hand; cursor:pointer"><b>Job 1</b></div>
  <div id="a1" class="texter">
