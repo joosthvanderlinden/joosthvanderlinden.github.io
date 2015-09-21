@@ -34,7 +34,7 @@ Skills
   Text.
 <br /><br /></div>
  
-- <div onClick="openClose('p3')" style="cursor:hand; cursor:pointer"><b>Matlab/Octave</b></div>
+- <div onClick="openClose('p3')" style="cursor:hand; cursor:pointer"><b>Matlab</b></div>
 <div id="p3" class="texter">
   Text.
 <br /><br /></div>
@@ -55,5 +55,8 @@ Skills
 <br /><br /></div>
 
 ---
-
 Experience
+
+--- 
+Education
+
