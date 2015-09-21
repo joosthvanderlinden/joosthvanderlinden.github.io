@@ -44,15 +44,16 @@ Skills
   Text.
 <br /><br /></div>
 
-- <div onClick="openClose('p5')" style="cursor:hand; cursor:pointer"><b>Java</b></div>
+- <div onClick="openClose('p5')" style="cursor:hand; cursor:pointer"><b>SQL</b></div>
 <div id="p5" class="texter">
   Text.
 <br /><br /></div>
 
-- <div onClick="openClose('p6')" style="cursor:hand; cursor:pointer"><b>SQL</b></div>
+- <div onClick="openClose('p6')" style="cursor:hand; cursor:pointer"><b>Other</b></div>
 <div id="p6" class="texter">
-  Text.
+  Java, Fortran. Unix. Photoshop, iMovie.
 <br /><br /></div>
+
 ---
 
-More text
+Experience
