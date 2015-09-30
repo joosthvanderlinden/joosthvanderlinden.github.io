@@ -26,23 +26,17 @@ Skills
 
 - <div onClick="openClose('p1')" style="cursor:hand; cursor:pointer"><b>Python</b></div>
 <div id="p1" class="texter">
-  Text.
-
-  Libraries: numpy, scipy, pandas, scikit-learn
-  Tools: iPython, Spyder
+  Language of choice for data analysis. Used for data tidying, general statistics, graph analytics, machine learning. Libraries: numpy, scipy, pandas, scikit-learn, networkx. Tools: iPython, Spyder.
 <br /><br /></div>
 
 - <div onClick="openClose('p2')" style="cursor:hand; cursor:pointer"><b>C++</b></div>
 <div id="p2" class="texter">
-  Text.
-
-  Libraries: STL, CGAL
-  Tools: Visual Studio, Xcode, CMake
+  Language of choice for speed. Used for numerical (solver) algorithms, domain segmentation, computational geometry, parallel computation. Libraries: STL, CGAL, OpenMP, MPI. Tools: Visual Studio, Xcode, CMake.
 <br /><br /></div>
  
 - <div onClick="openClose('p3')" style="cursor:hand; cursor:pointer"><b>Matlab</b></div>
 <div id="p3" class="texter">
-  Text.
+  Language of choice for quick implementations. 
 <br /><br /></div>
 
 - <div onClick="openClose('p4')" style="cursor:hand; cursor:pointer"><b>VBA</b></div>
