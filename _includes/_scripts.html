@@ -26,36 +26,65 @@
 <script language="JavaScript" type="text/javascript">
 <!-- Copyright 2007, Sandeep Gangadharan -->
 <!-- For more free scripts go to http://www.sivamdesign.com/scripts/ -->
+<!--
 if (document.getElementById) {
  document.write('<style type="text/css">.texter {display:none; border-left:white 0px solid} @media print {.texter {display:block;}}</style>') }
 
-// In divNum you should add a1, a2 etc. for each header you wish to include
-// so if you want 4 headers you should add a1, a2, a3, a4 in the format shown
-// enclosed in double quotes
- var divNum = new Array("p1","p2","p3","p4","p5");  
+var skillNum = new Array("p1","p2","p3","p4","p5");  
+var expNum = new Array("k1,"k2","k3");
+var eduNum = new Array("l1","l2","l3")
+var allNum = skillNum.concat(expNum,eduNum)
 
-function openClose(theID) {
- for(var i=0; i < divNum.length; i++) {
-  if (divNum[i] == theID) {
-   if (document.getElementById(divNum[i]).style.display == "block") { 
-     document.getElementById(divNum[i]).style.display = "none" 
+function openClose_skill(theID) {
+ for(var i=0; i < skillNum.length; i++) {
+  if (skillNum[i] == theID) {
+   if (document.getElementById(skillNum[i]).style.display == "block") { 
+     document.getElementById(skillNum[i]).style.display = "none" 
    }
    else { 
-     document.getElementById(divNum[i]).style.display = "block" 
-   }
+     document.getElementById(skillNum[i]).style.display = "block" 
+   }html
   }
  }
 }
 
+function openClose_exp(theID) {
+ for(var i=0; i < expNum.length; i++) {
+  if (expNum[i] == theID) {
+   if (document.getElementById(expNum[i]).style.display == "block") { 
+     document.getElementById(expNum[i]).style.display = "none" 
+   }
+   else { 
+     document.getElementById(skillNum[i]).style.display = "block" 
+   }html
+  }
+ }
+}
+
+
+function openClose_edu(theID) {
+ for(var i=0; i < eduNum.length; i++) {
+  if (eduNum[i] == theID) {
+   if (document.getElementById(eduNum[i]).style.display == "block") { 
+     document.getElementById(eduNum[i]).style.display = "none" 
+   }
+   else { 
+     document.getElementById(eduNum[i]).style.display = "block" 
+   }html
+  }
+ }
+}
+
+
 function openAll() {
- for(var i=0; i < divNum.length; i++) {
-   document.getElementById(divNum[i]).style.display = "block";
+ for(var i=0; i < allNum.length; i++) {
+   document.getElementById(allNum[i]).style.display = "block";
  }
 }
 
 function closeAll() {
- for(var i=0; i < divNum.length; i++) {
-   document.getElementById(divNum[i]).style.display = "none";
+ for(var i=0; i < allNum.length; i++) {
+   document.getElementById(allNum[i]).style.display = "none";
  }
 }
 // -->
