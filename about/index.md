@@ -59,12 +59,12 @@ Experience
 
 - <div onClick="openClose_exp('k2')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
 <div id="k2" class="texter">
-  Text
+  Text.
 <br /><br /></div>
 
 - <div onClick="openClose_exp('k3')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
 <div id="k3" class="texter">
-  Text
+  Text.
 <br /><br /></div>
 
 --- 
@@ -77,10 +77,10 @@ Education
 
 - <div onClick="openClose_edu('l2')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
 <div id="l2" class="texter">
-  Text
+  Text.
 <br /><br /></div>
 
 - <div onClick="openClose_edu('l3')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
 <div id="l3" class="texter">
-  Text
+  Text.
 <br /><br /></div>
