@@ -41,16 +41,11 @@ Skills
 
 - <div onClick="openClose('p4')" style="cursor:hand; cursor:pointer"><b>VBA</b></div>
 <div id="p4" class="texter">
-  3 years experience. Language of choice for Excel integration. Used for three data dashboard projects, automated reporting, data management. 
+  3 years experience. Language of choice for Excel integration. Used for three separate data dashboard projects, automated reporting, data management. 
 <br /><br /></div>
 
-- <div onClick="openClose('p5')" style="cursor:hand; cursor:pointer"><b>SQL</b></div>
+- <div onClick="openClose('p5')" style="cursor:hand; cursor:pointer"><b>Other</b></div>
 <div id="p5" class="texter">
-  1/2 year experience.
-<br /><br /></div>
-
-- <div onClick="openClose('p6')" style="cursor:hand; cursor:pointer"><b>Other</b></div>
-<div id="p6" class="texter">
   Java: undergraduate subject. Fortran: de-bugging project. Unix: bash. Photoshop: image editing. iMovie: various projects.
 <br /><br /></div>
 
