@@ -27,11 +27,17 @@ Skills
 - <div onClick="openClose('p1')" style="cursor:hand; cursor:pointer"><b>Python</b></div>
 <div id="p1" class="texter">
   Text.
+
+  Libraries: numpy, scipy, pandas, scikit-learn
+  Tools: iPython, Spyder
 <br /><br /></div>
 
 - <div onClick="openClose('p2')" style="cursor:hand; cursor:pointer"><b>C++</b></div>
 <div id="p2" class="texter">
   Text.
+
+  Libraries: STL, CGAL
+  Tools: Visual Studio, Xcode, CMake
 <br /><br /></div>
  
 - <div onClick="openClose('p3')" style="cursor:hand; cursor:pointer"><b>Matlab</b></div>
