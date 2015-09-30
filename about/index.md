@@ -26,32 +26,32 @@ Skills
 
 - <div onClick="openClose('p1')" style="cursor:hand; cursor:pointer"><b>Python</b></div>
 <div id="p1" class="texter">
-  Language of choice for data analysis. Used for data tidying, general statistics, graph analytics, machine learning. Libraries: numpy, scipy, pandas, scikit-learn, networkx. Tools: iPython, Spyder.
+  1 year experience. Language of choice for data analysis. Used for data tidying, data visualization, general statistics, graph analytics, machine learning. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn. Tools: iPython, Spyder, regular expressions.
 <br /><br /></div>
 
 - <div onClick="openClose('p2')" style="cursor:hand; cursor:pointer"><b>C++</b></div>
 <div id="p2" class="texter">
-  Language of choice for speed. Used for numerical (solver) algorithms, domain segmentation, computational geometry, parallel computation. Libraries: STL, CGAL, OpenMP, MPI. Tools: Visual Studio, Xcode, CMake.
+  2 years experience. Language of choice for speed. Used for advanced numerical (solver) algorithms, basic search algorithms, computational geometry, parallel computation. Libraries: STL, CGAL, OpenMP, MPI. Tools: Visual Studio, Xcode, CMake.
 <br /><br /></div>
  
 - <div onClick="openClose('p3')" style="cursor:hand; cursor:pointer"><b>Matlab</b></div>
 <div id="p3" class="texter">
-  Language of choice for quick implementations. 
+  7 years experience. Language of choice for quick implementations. Used throughout education for linear algebra and numerical analysis.
 <br /><br /></div>
 
 - <div onClick="openClose('p4')" style="cursor:hand; cursor:pointer"><b>VBA</b></div>
 <div id="p4" class="texter">
-  Text.
+  3 years experience. Language of choice for Excel integration. Used for three data dashboard projects, automated reporting, data management. 
 <br /><br /></div>
 
 - <div onClick="openClose('p5')" style="cursor:hand; cursor:pointer"><b>SQL</b></div>
 <div id="p5" class="texter">
-  Text.
+  1/2 year experience.
 <br /><br /></div>
 
 - <div onClick="openClose('p6')" style="cursor:hand; cursor:pointer"><b>Other</b></div>
 <div id="p6" class="texter">
-  Java, Fortran. Unix. Photoshop, iMovie.
+  Java: undergraduate subject. Fortran: de-bugging project. Unix: bash. Photoshop: image editing. iMovie: various projects.
 <br /><br /></div>
 
 ---
