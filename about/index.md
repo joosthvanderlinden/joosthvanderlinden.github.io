@@ -23,6 +23,7 @@ Click a header to read more about my experience, or
 
 ---
 Skills
+
 - <div onClick="openClose('p1')" style="cursor:hand; cursor:pointer"><b>Python</b></div>
 <div id="p1" class="texter">
   Text.
