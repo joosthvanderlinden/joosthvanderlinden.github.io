@@ -11,13 +11,6 @@ image:
   creditlink: 
 ---
 
-<ul class="nav nav-tabs">
-  <li class="active"><a href="#">Home</a></li>
-  <li><a href="#">Menu 1</a></li>
-  <li><a href="#">Menu 2</a></li>
-  <li><a href="#">Menu 3</a></li>
-</ul>
-
 Click a header to read more about my experience, or 
 <span style="cursor:hand; cursor:pointer" onClick="openAll()">
   <b> show all </b>
@@ -53,20 +46,20 @@ Skills
 
 - <div onClick="openClose_skill('p5')" style="cursor:hand; cursor:pointer"><b>Other</b></div>
 <div id="p5" class="texter">
-  Java: undergraduate subject. Unix: bash, compilation. Photoshop, iMovie: image/video editing.
+  Java: undergraduate subject. HTML: this website. Unix: bash, compilation. Photoshop, iMovie: image/video editing.
 <br /><br /></div>
 
 ---
 Experience
 
-- <div onClick="openClose_exp('k1')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
+- <div onClick="openClose_exp('k1')" style="cursor:hand; cursor:pointer"><b>Scientific Software Intern, Schlumberger</b></div>
 <div id="k1" class="texter">
-  Text.
+  Developed new preconditioning techniques for industry-leading reservoir simulation software. Published results in <a href="http://dx.doi.org/10.1016/j.jcp.2015.10.016">Journal of Computational Physics</a>, <a href="http://dx.doi.org/10.3997/2214-4609.20141773">ECMOR XIV conference</a>, several workshops and <a href="http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/">thesis</a>.
 <br /><br /></div>
 
-- <div onClick="openClose_exp('k2')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
+- <div onClick="openClose_exp('k2')" style="cursor:hand; cursor:pointer"><b>Research Intern, IBM</b></div>
 <div id="k2" class="texter">
-  Text.
+  Explored non-linear optimization approaches for well placement.
 <br /><br /></div>
 
 - <div onClick="openClose_exp('k3')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
