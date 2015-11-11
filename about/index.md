@@ -26,17 +26,17 @@ My passion is to combine applied mathematics and computer science in engineering
 - My MSc research on numerical linear solvers and preconditioning, which got published in the <a href="http://dx.doi.org/10.1016/j.jcp.2015.10.016">Journal of Computational Physics</a>, the <a href="http://dx.doi.org/10.3997/2214-4609.20141773">ECMOR XIV conference</a> and several workshops. I received the UfD-EBN Geo Energy Master Award for <a href="http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/">my thesis</a>.
 - My PhD research. I believe there is a lot of potential for the use of machine learning in engineering physics.
 
-Click on a **skill** to read more about my experience, or 
+---
+Click on a skill to read more about my experience, or 
 <span style="cursor:hand; cursor:pointer" onClick="openAll()">
-  <b> show all </b>
+  <u> show all </u>
 </span> 
 /
 <span style="cursor:hand; cursor:pointer" onClick="closeAll()">
-  <b> close all</b>
+  <u> close all</u>
 </span>
 . 
 
----
 - <div onClick="openClose_skill('p1')" style="cursor:hand; cursor:pointer">Python</div>
 <div id="p1" class="texter">
   1.5 years experience. My language of choice for data analysis. Used in various projects for data tidying, data visualization, statistical analyses, machine learning, graph analytics, information retrieval. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn. Tools: iPython, Spyder, regular expressions.
