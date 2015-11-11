@@ -10,8 +10,21 @@ image:
   credit: 
   creditlink: 
 ---
+My passion is to combine applied mathematics and computer science in engineering and data science applications. I excel in environments with ample learning opportunities. Currently, I am lucky enough to build on all of these things in my PhD.
 
-Click a header to read more about my experience, or 
+<b>Highlights</b>
+- BSc and MSc in Applied Mathematics from The Delft University of Technology (cum laude)
+- Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to porous media
+- Research internships at Schlumberger, IBM and for a small energy consultant (Alboran)
+- Data science jobs for a Dutch railway company (Keyrail) and as a freelancer in Melbourne
+- Founder and organiser of the <a href="http://www.datasciencemelbourne.com/datathon">Melbourne Datathon</a> (150 participants!)
+
+<b>I can talk for hours about</b>
+- Machine learning. I read everything on <a href="https://www.reddit.com/r/machinelearning">r/machinelearning </a> 
+- My MSc research, which got published in the <a href="http://dx.doi.org/10.1016/j.jcp.2015.10.016">Journal of Computational Physics</a>, the <a href="http://dx.doi.org/10.3997/2214-4609.20141773">ECMOR XIV conference</a>, several workshops and <a href="http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/">my thesis</a>
+- My PhD research, 
+
+Click a skill to read more about my experience, or 
 <span style="cursor:hand; cursor:pointer" onClick="openAll()">
   <b> show all </b>
 </span> 
@@ -22,8 +35,6 @@ Click a header to read more about my experience, or
 . 
 
 ---
-Skills
-
 - <div onClick="openClose_skill('p1')" style="cursor:hand; cursor:pointer"><b>Python</b></div>
 <div id="p1" class="texter">
   1.5 years experience. My language of choice for data analysis. Used in various projects for data tidying, data visualization, statistical analyses, machine learning, graph analytics, information retrieval. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn. Tools: iPython, Spyder, regular expressions.
@@ -48,39 +59,4 @@ Skills
 <div id="p5" class="texter">
   Java: undergraduate subject. HTML: this website. Unix: bash, compilation. Photoshop, iMovie: image/video editing.
 <br /><br /></div>
-
----
-Experience
-
-- <div onClick="openClose_exp('k1')" style="cursor:hand; cursor:pointer"><b>Scientific Software Intern, Schlumberger</b></div>
-<div id="k1" class="texter">
-  Developed new preconditioning techniques for industry-leading reservoir simulation software. Published results in <a href="http://dx.doi.org/10.1016/j.jcp.2015.10.016">Journal of Computational Physics</a>, <a href="http://dx.doi.org/10.3997/2214-4609.20141773">ECMOR XIV conference</a>, several workshops and <a href="http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/">thesis</a>.
-<br /><br /></div>
-
-- <div onClick="openClose_exp('k2')" style="cursor:hand; cursor:pointer"><b>Research Intern, IBM</b></div>
-<div id="k2" class="texter">
-  Explored non-linear optimization approaches for well placement.
-<br /><br /></div>
-
-- <div onClick="openClose_exp('k3')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
-<div id="k3" class="texter">
-  Text.
-<br /><br /></div>
-
 --- 
-Education
-
-- <div onClick="openClose_edu('l1')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
-<div id="l1" class="texter">
-  Text.
-<br /><br /></div>
-
-- <div onClick="openClose_edu('l2')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
-<div id="l2" class="texter">
-  Text.
-<br /><br /></div>
-
-- <div onClick="openClose_edu('l3')" style="cursor:hand; cursor:pointer"><b>Name</b></div>
-<div id="l3" class="texter">
-  Text.
-<br /><br /></div>
