@@ -13,6 +13,9 @@ image:
 My passion is to combine applied mathematics and computer science in engineering and data science applications. I excel in environments with ample learning opportunities. Currently, I am lucky enough to build on all of these things in my PhD.
 
 <b>Highlights</b>
+
+test
+
 * BSc and MSc in Applied Mathematics from The Delft University of Technology (cum laude)
 * Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to porous media
 * Research internships at Schlumberger, IBM and for a small energy consultant (Alboran)
