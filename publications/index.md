@@ -11,6 +11,5 @@ image:
   creditlink: 
 ---
 
-Journal papers
-* 
+Publications
 
