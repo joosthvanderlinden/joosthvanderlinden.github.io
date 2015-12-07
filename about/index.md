@@ -48,5 +48,4 @@ Click on a skill to read more about my experience, or
 - <div onClick="openClose_skill('p5')" style="cursor:hand; cursor:pointer">Other</div><div id="p5" class="texter">
   Java: undergraduate subject. HTML/Jekyll: this website. Unix: bash, compilation. Photoshop, iMovie: image/video editing.<br /><br /></div>
 
---- 
-hoi
+---
