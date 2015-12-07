@@ -21,6 +21,7 @@ image:
 
 **Talks**
 * Infrastructure Engineering Postgraduate Conference, November 2015 (**best presentation award**)
+* Australian Academy of Science White Conference on Mining Data for Detection & Prediction of Failure in Geomaterials , July 2015
 * Engineering Mechanics Institute Conference, June 2015
 * Infrastructure Engineering Postgraduate Conference, November 2014 
 * Advances in High Performance Computing and its Applications Workshop, June 2013
