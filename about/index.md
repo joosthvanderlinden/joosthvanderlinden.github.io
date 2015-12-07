@@ -49,3 +49,4 @@ Click on a skill to read more about my experience, or
   Java: undergraduate subject. HTML/Jekyll: this website. Unix: bash, compilation. Photoshop, iMovie: image/video editing.<br /><br /></div>
 
 --- 
+hoi
