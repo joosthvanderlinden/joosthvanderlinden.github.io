@@ -47,6 +47,6 @@ Click on a skill to read more about my experience, or
 - <div onClick="openClose_skill('p4')" style="cursor:hand; cursor:pointer">VBA</div><div id="p4" class="texter"> 3 years experience. Language of choice for Excel integration. Used to build various data dashboards, automated reporting, data management. <br /><br /></div>
 
 - <div onClick="openClose_skill('p5')" style="cursor:hand; cursor:pointer">Other</div><div id="p5" class="texter">
-  Java: undergraduate subject. HTML/Jekyll: this website. Unix: bash, compilation. Photoshop, iMovie: image/video editing.<br /><br /></div>
+  Java: undergraduate subject. HTML/Jekyll/Markdown: this website. Unix: bash, compilation. Photoshop, iMovie: image/video editing. Comsol: physics simulations during PhD. Paraview: physics visualizations during PhD. Simpleware ScanFE: finite element meshing. <br /><br /></div>
 
 ---
