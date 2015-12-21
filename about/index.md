@@ -37,7 +37,7 @@ Click on a skill to read more about my experience, or
 </span>
 . 
 
-- <div onClick="openClose_skill('p1')" style="cursor:hand; cursor:pointer">Python</div><div id="p1" class="texter"> 1.5 years experience. My language of choice for data analysis. Used in various projects for data tidying, data visualization, statistical analyses, machine learning, graph analytics, information retrieval. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn. Tools: iPython, Spyder, regular expressions.<br /><br /></div>
+- <div onClick="openClose_skill('p1')" style="cursor:hand; cursor:pointer">Python</div><div id="p1" class="texter"> 1.5 years experience. My language of choice for data analysis. Used in various projects for data tidying, data visualization, statistical analyses, machine learning, graph analytics, information retrieval. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn, rpy2. Tools: iPython, Spyder, regular expressions.<br /><br /></div>
 
 - <div onClick="openClose_skill('p2')" style="cursor:hand; cursor:pointer">C++</div><div id="p2" class="texter"> 2.5 years experience. My language of choice for speed. Used in various projects for advanced numerical (solver, preconditioning) algorithms, basic search algorithms, computational geometry, parallel computation. Libraries: STL, CGAL, OpenMP, MPI. Tools: Visual Studio, Xcode, CMake.<br /><br /></div>
  
@@ -46,6 +46,6 @@ Click on a skill to read more about my experience, or
 - <div onClick="openClose_skill('p4')" style="cursor:hand; cursor:pointer">VBA</div><div id="p4" class="texter"> 3 years experience. Language of choice for Excel integration. Used to build various data dashboards, automated reporting, data management. <br /><br /></div>
 
 - <div onClick="openClose_skill('p5')" style="cursor:hand; cursor:pointer">Other</div><div id="p5" class="texter">
-  Java: undergraduate subject. HTML/Jekyll/Markdown: this website. Unix: bash, compilation. Photoshop, iMovie: image/video editing. Comsol: physics simulations during PhD. Paraview: physics visualizations during PhD. Simpleware ScanFE: finite element meshing. <br /><br /></div>
+  Java: undergraduate subject. R: explored graphical models for PhD research. HTML/Jekyll/Markdown: this website. Unix: bash, compilation. Photoshop, iMovie: image/video editing. Comsol: physics simulations during PhD. Paraview: physics visualizations during PhD. Simpleware ScanFE: finite element meshing. <br /><br /></div>
 
 ---
