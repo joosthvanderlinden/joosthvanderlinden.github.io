@@ -18,7 +18,7 @@ My passion is to combine applied mathematics and computer science in engineering
 - Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to porous media.
 - Research internships at Schlumberger, IBM and for a small energy consultant (Alboran), where I learned how to connect, communicate and collaborate.
 - Data analytics jobs for a Dutch railway company (Keyrail) and as a freelancer in Melbourne, where I discovered a new passion for data science.
-- Founder and organiser of the <a href="http://www.datasciencemelbourne.com/datathon">Melbourne Datathon</a> (150 participants in 2015!).
+- Founder and organiser of the <a href="http://www.datasciencemelbourne.com/datathon">Melbourne Datathon</a>.
 
 **I can talk for hours about**
 
