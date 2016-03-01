@@ -37,7 +37,7 @@ Click on a skill to read more about my experience, or
 </span>
 . 
 
-- <div onClick="openClose_skill('p1')" style="cursor:hand; cursor:pointer">Python</div><div id="p1" class="texter"> 1.5 years experience. My language of choice for data analysis. Used in various projects for data tidying, data visualization, statistical analyses, machine learning, graph analytics, information retrieval. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn, rpy2. Tools: iPython, Spyder, regular expressions.<br /><br /></div>
+- <div onClick="openClose_skill('p1')" style="cursor:hand; cursor:pointer">**Python**</div><div id="p1" class="texter"> 1.5 years experience. My language of choice for data analysis. Used in various projects for data tidying, data visualization, statistical analyses, machine learning, graph analytics, information retrieval. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn, rpy2. Tools: iPython, Spyder, regular expressions.<br /><br /></div>
 
 - <div onClick="openClose_skill('p2')" style="cursor:hand; cursor:pointer">C++</div><div id="p2" class="texter"> 2.5 years experience. My language of choice for speed. Used in various projects for advanced numerical (solver, preconditioning) algorithms, basic search algorithms, computational geometry, parallel computation. Libraries: STL, CGAL, OpenMP, MPI. Tools: Visual Studio, Xcode, CMake.<br /><br /></div>
  
