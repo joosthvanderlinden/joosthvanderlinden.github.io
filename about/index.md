@@ -15,14 +15,14 @@ My passion is to combine applied mathematics and computer science in engineering
 **Highlights**
 
 - BSc and MSc in Applied Mathematics from The Delft University of Technology (cum laude).
-- Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to porous media.
+- Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to granular, porous media.
 - Research internships at Schlumberger, IBM and for a small energy consultant (Alboran), where I learned how to connect, communicate and collaborate.
-- Data analytics jobs for a Dutch railway company (Keyrail) and as a freelancer in Melbourne, where I discovered a new passion for data science. I founded and organized the <a href="http://www.datasciencemelbourne.com/datathon">Melbourne Datathon</a>.
+- I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted over 120 data enthusiasts in the first year.
 
 **I can talk for hours about**
 
-- Data science and machine learning. I read everything on <a href="https://www.reddit.com/r/machinelearning">r/machinelearning</a> and <a href="https://www.reddit.com/r/datascience">r/datascience</a>.
-- My PhD research. I believe there is a lot of potential for the use of machine learning in engineering physics.
+- Data science and machine learning. I like to read everything on <a href="https://www.reddit.com/r/machinelearning">r/machinelearning</a> and <a href="https://www.reddit.com/r/datascience">r/datascience</a>.
+- My PhD research. I believe there is a lot of potential for the use of statistics and machine learning in engineering physics.
 - My MSc research on numerical linear solvers and preconditioning, which got published in the <a href="http://dx.doi.org/10.1016/j.jcp.2015.10.016">Journal of Computational Physics</a>, the <a href="http://dx.doi.org/10.3997/2214-4609.20141773">ECMOR XIV conference</a> and several workshops. I received the UfD-EBN Geo Energy Master Award for <a href="http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/">my thesis</a>.
 
 
