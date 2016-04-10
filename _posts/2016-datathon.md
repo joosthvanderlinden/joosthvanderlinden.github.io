@@ -1,14 +1,10 @@
 ---
 layout: post
-title: Melbourne Datathon 2015
+title: "Melbourne Datathon"
 excerpt: "Everything I learned from organizing a hackathon for data science."
 modified: 2015-12-11
-tags: [melbourne, datathon, data science, hackathon]
+tags: [datathon]
 comments: false
-image:
-  feature: sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 <section id="table-of-contents" class="toc">
