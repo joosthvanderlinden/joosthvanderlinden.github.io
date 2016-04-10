@@ -9,7 +9,6 @@ image:
   feature: sample-image-5.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
-hidden: true
 ---
 
 <section id="table-of-contents" class="toc">
