@@ -26,9 +26,9 @@ Apply the `half` class like so to display two images side by side that share the
 
 {% highlight html %}
 <figure class="half">
-    <a href="/images/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>
-    <a href="/images/image-filename-2-large.jpg"><img src="/images/image-filename-2.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
+    <a href="/images/datathon2015_hackday.jpg"><img src="/images/datathon2015_hackday.jpg"></a>
+    <a href="/images/datathon2015_pitchnight.jpg"><img src="/images/datathon2015_pitchnight.jpg"></a>
+    <figcaption>Impression of the Melbourne Datathon 2015.</figcaption>
 </figure>
 {% endhighlight %}
 
