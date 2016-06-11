@@ -20,7 +20,7 @@ Text
 	<figcaption>Melbourne Datathon 2015.</figcaption>
 </figure>
 <figure>
-	<a href="/images/datathon2016_hackday.jpg"><img src="/images/datathon2015_hackday.jpg"></a>
+	<a href="/images/datathon2016_hackday.png"><img src="/images/datathon2016_hackday.png"></a>
 	<figcaption>Melbourne Datathon 2016.</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ Text
     <figcaption>Melbourne Datathon 2015.</figcaption>
 </figure>
 <figure>
-    <a href="/images/datathon2016_pitchnight.jpg"><img src="/images/datathon2015_pitchnight.jpg"></a>
+    <a href="/images/datathon2016_pitchnight.png"><img src="/images/datathon2016_pitchnight.png"></a>
     <figcaption>Melbourne Datathon 2016.</figcaption>
 </figure>
 Google talk
