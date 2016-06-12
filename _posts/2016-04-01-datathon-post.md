@@ -13,9 +13,11 @@ Under construction
 The concept is simple. We provide the dataset, participants provide insights. There are no set tasks and very little initial guidance. Instead, we ask people to come up with their own questions. What is the value in the data? What are the business opportunities? What could the data be connected with to create new insights? Essentially, we want the datathon to be just like a real data science consulting job. 
 
 ### 3 biggest challenges
-3. Finding sponsors and venues
+1. Getting the dataset 
 2. Budgeting for a free event 
-1. Getting the dataset
+3. Finding sponsors and venues 
+
+
 
 ## Kickoff
 Text
@@ -42,4 +44,10 @@ Text
 </figure>
 Google talk
 
-### Tips
+### Todo
+- Sharing the dataset
+- NDAs
+- Website
+- Communication
+- Social media
+- 
