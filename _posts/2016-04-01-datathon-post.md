@@ -10,7 +10,7 @@ comments: false
 In this blog post, I will share my story and experiences on running a "datathon." Running one yourself? Feel free to skip my story and scroll straight down to the concept & tips section.
 
 ### Founding the Melbourne Datathon
-Back in December 2014, I read a few [articles](http://www.datanami.com/2014/11/24/datathons-emerge-training-recruitment-tool/) about the concept of a datathon and I thought it would be fun to organize one in Melbourne. But where to start? I had just started going to the local data science Meetup. I got in touch with the organizer (Phil Brierley) who was immediately excited about the idea too. Lucky for me, Phil knows practicaLly everyone and everything doing data science in Melbourne. I had found myself a co-organizer.
+Back in December 2014, I read a few [articles](http://www.datanami.com/2014/11/24/datathons-emerge-training-recruitment-tool/) about the concept of a datathon and I thought it would be fun to organize one in Melbourne. But where to start? I had just started going to the local data science Meetup. I got in touch with the organizer ([Phil Brierley](https://au.linkedin.com/in/philbrierley)) who was immediately excited about the idea too. Lucky for me, Phil knows practicaLly everyone and everything doing data science in Melbourne. I had found myself a co-organizer.
 
 Countless meetings and coffees followed, during which time we hashed out the format. We got together with a small web development startup ([Zuse Digital](http://www.zusedigital.com/)) to set up a website for us. Thanks to the Meetup, finding venues and sponsors proved relatively straightforward. Our friends and colleagues (even my wife!) got involved to help out with logistics and communication. We attracted a group of data "executives" to serve as our jury and got a group of experts together to be the mentors during the event. I also saw an opportunity in making our event part of the [Melbourne Knowledge Week](http://www.melbourne.vic.gov.au/arts-and-culture/events-partnerships/melbourne-knowledge-week/Pages/melbourne-knowledge-week.aspx), adding to our exposure outside the Meetup and integrating our event with the city's objective of promoting the knowledge sector.  
 
@@ -20,7 +20,7 @@ Moving on from our "holy grail," we started chasing down countless other leads. 
 
 After months of searching, we finally found a corporate partner (Betfair) who was willing to share a really interesting dataset from their betting marketplace. Although not everyone was too happy about the idea of working with betting data, the data did offer everything we were looking for: a temporal element, a spatial element and a "people" element. Interestingly, some teams ended up using the dataset "for good" by analyzing suspicious betting behaviour and money laundering.
 
-The 2015 edition itself was a success. About 120 people showed up on the hackday, 22 teams submitted an entry and close to 200 people saw the top 5 contenders pitch their insights, visualisations and predictions to our industry panel. Between the pitching competition and the subsequent Kaggle competition, winning teams took home $4,000 in prize money. [Mat Kelcey](http://matpalm.com/blog/) from Google talked about recurrent neural networks in between the pitches. Finally, arguably most appreciated was the free bartab afterwards!
+The 2015 edition itself was a success. About 120 people showed up on the hackday. We ran tutorials on getting started with R and pitching your insights. 22 teams submitted an entry and close to 200 people saw the top 5 contenders pitch their insights, visualisations and predictions to our industry panel. Between the pitching competition and the subsequent Kaggle competition, winning teams took home $4,000 in prize money. [Mat Kelcey](http://matpalm.com/blog/) from Google talked about recurrent neural networks in between the pitches. Finally, arguably most appreciated was the free bartab afterwards!
 <figure>
 	<a href="/images/datathon2015_hackday.jpg"><img src="/images/datathon2015_hackday.jpg"></a>
 	<figcaption>Melbourne Datathon 2015 - Hackday.</figcaption>
@@ -30,12 +30,17 @@ The 2015 edition itself was a success. About 120 people showed up on the hackday
     <figcaption>Melbourne Datathon 2015 - Pitch night & award ceremony.</figcaption>
 </figure>
 
-### Scaling up
+### Scaling up in 2016
+Seeing the potential to scale up and make the event even better, our team launched straight into organizing the Melbourne Datathon 2016. This time, having actually demonstrated what was possible, it turned out to be much easier to find a dataset, sponsors and venues. The dataset was provided by [Seek](http://www.seek.com.au/), an employment marketplace, who shared their website activity (millions of impressions and clicks) and a few hundred thousand job ads with us. [Telstra](http://www.telstra.com.au) was kind enough to host our hackday in their brand new innovation lab (curved screens everywhere!) and [Hortonworks](http://hortonworks.com/) sponsored 150 (!) pizzas. Finally,  [KPMG](https://home.kpmg.com/au/en/home.html) chipped in part of the prize money and bartab. Our friend [Yuval Marom](https://au.linkedin.com/in/yuvalmarom) got together with a student employment startup ([prevyou](https://www.prevyou.com.au/)) and set up a bunch of student internship prizes, which participants could apply for. We scaled up our communication with MailChimp and Hootsuite, after which we were ready to go.
+
+Budgeting for a free event is difficult. When hackday came around, we expected upwards of 200 people to show up. We were quite amazed to see 350 people walk through the door, nearly tripling our attendance compared to the previous year. Our pizza order was quickly adjusted and although the presentation area got a bit (too) cozy, everyone managed to find a spot for their team. We ran tutorials on text mining in R and Python, exploring data with SQL and Tableau, submitting to Kaggle and pitching insights. Between the Kaggle competition and the pitching competition, we received about 75 team entries. The Kaggle competition proved to be especially exciting, with the winning team joining forces on the last day (to ensemble their models) and spending over $200 on AWS credits (lucky for them they won first prize!). In the pitching competition we saw teams analyze the data from all sorts of different angles, from text mining job descriptions to suggest better job tags to visualizing the entire job market with a network model. 
 
 ### Onwards
-Looking back, even though we were turned down 9/10 times, it was incredibly exciting to be able to peek into everyone's "data kitchen."
+Looking back, it was incredibly exciting and I feel fortunate to haved had the opportunity to peek into everyone's "data kitchen" while searching for a dataset. Even though we were turned down 9/10 times, I met a lot of passionate people, which, combined with our current growth rates, strengthenes my belief that data science is gaining a lot of momentum in Melbourne.
 
 Strategy doc
+
+Swag
 
 ### Concept & tips
 There is a lot of help available on running traditional hackathons (like [this](http://hackdaymanifesto.com/) page) but very little guidance tailored to running a hackathon for data science. Therefore, I am sharing my experiences here in hopes of helping other data-enthusiasts getting started.
@@ -44,6 +49,8 @@ The concept is simple. We provide the dataset; participants provide insights. Th
 
 #### Things to look for in the dataset
 Use list 
+Size: laptop
+Previously unreleased
 
 #### 3 biggest challenges
 1. Getting the dataset 
@@ -77,4 +84,4 @@ Google talk
 - Website
 - Communication
 - Social media
-- 
+- Get a good photographer
