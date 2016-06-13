@@ -1,86 +1,58 @@
 ---
 layout: post
-title: "Melbourne Datathon"
-excerpt: "Everything I learned from organizing a hackathon for data science."
+title: "How to organize a datathon"
+excerpt: "My tips and lessons learned from organizing the Melbourne Datathon"
 modified: 2016-04-11
 tags: [datathon]
 comments: false
 ---
 
-In this blog post, I will share my story and experiences on running a "datathon." Running one yourself? Feel free to skip my story and scroll straight down to the concept & tips section.
-
-### Founding the Melbourne Datathon
-Back in December 2014, I read a few [articles](http://www.datanami.com/2014/11/24/datathons-emerge-training-recruitment-tool/) about the concept of a datathon and I thought it would be fun to organize one in Melbourne. But where to start? I had just started going to the local data science Meetup. I got in touch with the organizer ([Phil Brierley](https://au.linkedin.com/in/philbrierley)) who was immediately excited about the idea too. Lucky for me, Phil knows practicaLly everyone and everything doing data science in Melbourne. I had found myself a co-organizer.
-
-Countless meetings and coffees followed, during which time we hashed out the format. We got together with a small web development startup ([Zuse Digital](http://www.zusedigital.com/)) to set up a website for us. Thanks to the Meetup, finding venues and sponsors proved relatively straightforward. Our friends and colleagues (even my wife!) got involved to help out with logistics and communication. We attracted a group of data "executives" to serve as our jury and got a group of experts together to be the mentors during the event. I also saw an opportunity in making our event part of the [Melbourne Knowledge Week](http://www.melbourne.vic.gov.au/arts-and-culture/events-partnerships/melbourne-knowledge-week/Pages/melbourne-knowledge-week.aspx), adding to our exposure outside the Meetup and integrating our event with the city's objective of promoting the knowledge sector.  
-
-The most challenging aspect of organizing the datathon turned out to be finding the dataset. We wanted a new, previously unreleased dataset, to make sure there were no questions/answers out there, and to make the datathon more attractive. Initially, we set our sights on data from the local smartcard ticketing system (Myki) for public transport. Unfortunately for us, the Myki system carries A LOT of political baggage. Even though we got as high as the state's Minister for Public Transport, there was just not enough incentive (and too much risk) in the government to release the data. 
-
-Moving on from our "holy grail," we started chasing down countless other leads. We continued searching in the government sector for a while, talking to the Health Department, Economic Development, VicRoads, Australia Post, Forest Management and Ambulance Victoria, but nothing really seemed to pan out. Although open data is gaining momentum in [Melbourne](https://data.melbourne.vic.gov.au/) and [Victoria](https://www.data.vic.gov.au/), often we found that a dataset was too politically senstive, already public or was to be made public on a date that did not align with our planning. We also searched in the corporate sector, meeting with representatives from various banks and IT companies, as well as a credit rating agency and an employment marketplace. Here, our main roadblock was often the legal team. Despite the benefit of having a group of eager data-enthusiasts sifting through the data and our offer to set up a non-disclosure agreement, not everyone was too keen on the idea of having their data out in the open. 
-
-After months of searching, we finally found a corporate partner (Betfair) who was willing to share a really interesting dataset from their betting marketplace. Although not everyone was too happy about the idea of working with betting data, the data did offer everything we were looking for: a temporal element, a spatial element and a "people" element. Interestingly, some teams ended up using the dataset "for good" by analyzing suspicious betting behaviour and money laundering.
-
-The 2015 edition itself was a success. About 120 people showed up on the hackday. We ran tutorials on getting started with R and pitching your insights. 22 teams submitted an entry and close to 200 people saw the top 5 contenders pitch their insights, visualisations and predictions to our industry panel. Between the pitching competition and the subsequent Kaggle competition, winning teams took home $4,000 in prize money. [Mat Kelcey](http://matpalm.com/blog/) from Google talked about recurrent neural networks in between the pitches. Finally, arguably most appreciated was the free bartab afterwards!
-<figure>
-	<a href="/images/datathon2015_hackday.jpg"><img src="/images/datathon2015_hackday.jpg"></a>
-	<figcaption>Melbourne Datathon 2015 - Hackday.</figcaption>
-</figure>
-<figure>
-    <a href="/images/datathon2015_pitchnight.jpg"><img src="/images/datathon2015_pitchnight.jpg"></a>
-    <figcaption>Melbourne Datathon 2015 - Pitch night.</figcaption>
-</figure>
-
-### Scaling up in 2016
-Seeing the potential to scale up and make the event even better, our team launched straight into organizing the Melbourne Datathon 2016. This time, having actually demonstrated what was possible, it turned out to be much easier to find a dataset, sponsors and venues. The dataset was provided by [Seek](http://www.seek.com.au/), an employment marketplace, who shared their website activity (millions of impressions and clicks) and a few hundred thousand job ads with us. [Telstra](http://www.telstra.com.au) was kind enough to host our hackday in their brand new innovation lab (curved screens everywhere!) and [Hortonworks](http://hortonworks.com/) sponsored 150 (!) pizzas. Finally,  [KPMG](https://home.kpmg.com/au/en/home.html) chipped in part of the prize money and bartab. Our friend [Yuval Marom](https://au.linkedin.com/in/yuvalmarom) got together with a student employment startup ([prevyou](https://www.prevyou.com.au/)) and set up a bunch of student internship prizes, which participants could apply for. We scaled up our communication with MailChimp and Hootsuite, after which we were ready to go.
-
-Budgeting for a free event is difficult. When hackday came around, we expected upwards of 200 people to show up. We were quite amazed to see 350 people walk through the door, nearly tripling our attendance compared to the previous year. Our pizza order was quickly adjusted and although the presentation area got a bit (too) cozy, everyone managed to find a spot for their team. We ran tutorials on text mining in R and Python, exploring data with SQL and Tableau, submitting to Kaggle and pitching insights. Between the Kaggle competition and the pitching competition, we received about 75 team entries. The Kaggle competition proved to be especially exciting, with the winning team joining forces on the last day (to ensemble their models) and spending over $200 on AWS credits (lucky for them they won first prize!). In the pitching competition we saw teams analyze the data from all sorts of different angles, from text mining job descriptions to suggest better job tags to visualizing the entire job market with a network model. 
-<figure>
-	<a href="/images/datathon2016_hackday.png"><img src="/images/datathon2016_hackday.png"></a>
-	<figcaption>Melbourne Datathon 2016 - Hackday.</figcaption>
-</figure>
-<figure>
-    <a href="/images/datathon2016_pitchnight.png"><img src="/images/datathon2016_pitchnight.png"></a>
-    <figcaption>Melbourne Datathon 2016 - Pitch night.</figcaption>
-</figure>
-
-### Onwards
-Looking back, it has been incredibly exciting and I feel very fortunate to have had the opportunity to peek into everyone's "data kitchen" while searching for a dataset, venues and sponsors. Even though we were turned down 9/10 times, I met a lot of passionate people, which, combined with our event's current growth rate, strengthens my belief that data science is gaining a lot of momentum in Melbourne. Our data science Meetup, for example, has grown to almost 4,000 members in just 2 years and every event is packed (is it really just the free pizza and beer? who knows).
-
-To ensure everyone's on the same page, I set up a long-term strategy for the Melbourne Datathon. I think it is most important for Melbourne Datathon to remain an independent, community-driven event. The Meetup should always be the sole organizer and fully in charge. We attract sponsors on the premises of contributing to the data science community in Melbourne, networking/hiring opportunities and brand exposure. If the dataset is corporate, the data sponsor should pitch in most of the prize money to take away any impression of "free labour." As beneficial (sponsoring-wise) as a corporate dataset may be, ultimately a community dataset would fit best with a community event. Hence, a societal dataset (in healtcare) is on our radar for next year. We are excited to see what the future holds!
-
-
-
-
-
-### Concept & tips
 There is a lot of help available on running traditional hackathons (like [this](http://hackdaymanifesto.com/) page) but very little guidance tailored to running a hackathon for data science. Therefore, I am sharing my experiences here in hopes of helping other data-enthusiasts getting started.
 
-The concept is simple. We provide the dataset; participants provide insights. There are no set tasks and there is very little initial guidance. Instead, we ask people to come up with their own questions. What is the value in the data? What are the business opportunities? What could the data be connected with to create new insights? Essentially, we want the datathon to be just like a real data science consulting job. 
+### The concept
+The concept is simple. You provide the dataset; participants provide insights. What is the value in the data? What are the business opportunities? What corporate or societal problems can we solve with this data? What could the data be connected with to create new insights? Outcomes may include visualizations, insights into specific variables, predictions or analyses involving external datasets. Essentially, a datathon is like a real data science consulting job: here's a dataset, tell me something interesting.
 
-#### Things to look for in the dataset
-Use list 
-Size: laptop
-Previously unreleased
+## Length
+Traditional hackathons are often run over the course of a weekend. We decided against this. While it might work for you, we found that the process of data discovery takes a bit longer: as part of the competition, data needs to be cleaned and pre-processed before you can start to analyze something, and that doesn't even take into account "understanding" the various variables involved. If your datathon has a specific theme with some pre-defined objectives, and if your data is relatively clean and transparent, then a weekend might work for you. If you (like us) ask no specific questions, then my advice is to run the datathon over the course of one or two weeks. 
 
-#### 3 biggest challenges
-1. Getting the dataset 
-2. Budgeting for a free event 
-3. Finding sponsors and venues 
+## Competitions involved
+The Melbourne Datathon has so far consisted of two competitions: a traditial Kaggle "prediction" competition, and a pitching competition. In the former, the objective is to predict one of the variables in the dataset. For example, in the Melbourne Datathon 2016, we asked participants to predict whether or not a job was a hospitality job, based on the location, salary range, job description etc. We hosted the competition on [Kaggle In Class](https://inclass.kaggle.com/). Make sure you hold out part of the data to score each prediction. In the pitching competition, the objective is to come up with new insights. Participants submit a slide deck, explaining visually explaining their ideas. Next, the data owner and/or an industry panel consisting of data science "executives" assesses the entries and picks a top 5. The top 5 teams pitch their analysis to the panel and an audience on the final night of the datathon, after which the panel decides the top 3.
 
+## Events involved
+The Melbourne Datathon consists of four events: launch day, hackday, submission day and the pitch night:
+- **Launch day**. I consider this optional, but it helps to create some buzz and get people excited. During the launch event (either over lunch or right after work hours) we share a "sneak-peek" data file, containing a small subset of the full dataset. Participants are not required to attend the launch event, but many will to get an early start. The launch event is also an opportunity to quickly run through the schedule and answer questions. We deliberately did not share anything about the data itself during our launch event, to give people a chance to discover the structure themselves. Lastly, launch day is an opportunity for people to sign the non-disclosure agreement (NDA), if you have one. We cross-checked NDAs against our online signup and emailed participants the sneak-peek file.
+- **Hackday**. The hackday is the main event of the datathon. First and foremost, you should share the full dataset and organize a data walkthrough (run by your data owner) to explain all variables involved. Second, you should offer the space for teams to form and work together. If your datathon attracts a lot of "beginners" (close to 50% in our case) then running a series of tutorials is a good idea. At a minimum, I recommend a tutorial on loading and plotting the data in R/Python, and a tutorial on how to present data insights. You should also have some mentors floating around to help answer questions about the data and running an analysis in R or Python.
+- **Submission day**. After hackday, teams go home and continue to work on their entries until the submission deadline. Directly after the submission deadline, have your data owner and/or industry panel assess the entries and pick a top 5. Next, communicate the top 5 to your participants.
+- **Pitch night**. The pitch night is the conclusion of the datathon. Five selected teams pitch their ideas to an audience of participants and non-participants (this event can be open to everyone), as well as the industry panel. After the presentation, each panel member ranks the pitches, from which you can compute the final ranking. Prizes are subsequently awarded during the award ceremony. If you have the budget, a small afterparty at your local pub is a good idea.
 
+### Tips and lessons learned
 
-## Kickoff
-Text
-## Hackday
-Text
+## Pitching to potential (data) sponsors
+Unless you already have a dataset when you decide to organize a datathon, finding a previously unreleased dataset can be challenging. I have found that government departments are reluctant to release their data due to political bagage and the risks of anything "bad" being exposed, while our efforts to obtain a corporate dataset often ended at the legal department. 
+That being said, there are a lot of benefits for a company/institution/government department to become your "data sponsor" and share their data with you. The data will be analyzed by a group of enthusiastic data scientists, and you would be surprised to see how many different angles are taken. Despite having 20-25 submissions, we have yet to see two teams doing the same thing. Moreover, having no previous knowledge of the data often helps people think "out of the box." The data sponsor also gets significant brand exposure and the opportunity to network and recruit. 
 
+## Things to look for in a dataset
+For a succesful competition, you want a rich and granular dataset. When people ask what you exactly you are looking for, I recommend listing the following:
+- A **people** element, e.g. users, customers, participants, drivers, etc.
+- A **time** element
+- A **place** element, e.g. latitutde/longitude, city, country
+- **Raw** data, e.g. granular, not aggregated
+- Previously **unreleased** data, e.g. with no answers/questions on the internet
+- **Medium-sized** data, e.g. 2-4 GB, should fit in memory on people's laptops
+- (optional) **local** data, e.g. from your city, state, country
 
+Regarding the size, larger datasets (5+ GB) are possible, but in that case the data should be cut up into manageable chunks. That way, everyone can get started on their laptop, and the more eager participants can go nuts with their database.
 
-### Todo
+## Budgeting for a free event 
+The Melbourne Datathon has so far been a free event. If you run your event for free as well, take into account that a lot of registrated participants will not show up. In 2015, we saw roughly 50% of our online registrations show, while in 2016 it was closer to 60%.
+
+### Other advice
 - Sharing the dataset
-- NDAs
+- NDAs: retain IP with participants
 - Website
 - Communication
 - Social media
 - Get a good photographer
 - prize money from data sponsor to take away impression of free labour
+- Audience vote: http://www.voxvote.com/
+- Judging criteria: teamwork
