@@ -2,7 +2,7 @@
 layout: post
 title: "The Melbourne Datathon - How it came about"
 excerpt: "The story behind founding and organizing a hackathon for data science."
-modified: 2016-04-11
+modified: 2016-06-13
 tags: [datathon]
 comments: false
 ---
