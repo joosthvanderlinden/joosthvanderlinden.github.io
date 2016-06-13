@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Melbourne Datathon"
-excerpt: "Everything I learned from organizing a hackathon for data science."
+title: "Melbourne Datathon - How it came about"
+excerpt: "The story behind founding and organizing a hackathon for data science."
 modified: 2016-04-11
 tags: [datathon]
 comments: false
 ---
 
-In this blog post, I will share my story and experiences on running a "datathon." Running one yourself? Feel free to skip my story and scroll straight down to the concept & tips section.
+In this blog post, I will share my story and experiences on running a datathon in Melbourne. Running one yourself? Make sure you check out my other blogpost, in which I share my tips and lessons learned.
 
 ### Founding the Melbourne Datathon
 Back in December 2014, I read a few [articles](http://www.datanami.com/2014/11/24/datathons-emerge-training-recruitment-tool/) about the concept of a datathon and I thought it would be fun to organize one in Melbourne. But where to start? I had just started going to the local data science Meetup. I got in touch with the organizer ([Phil Brierley](https://au.linkedin.com/in/philbrierley)) who was immediately excited about the idea too. Lucky for me, Phil knows practicaLly everyone and everything doing data science in Melbourne. I had found myself a co-organizer.
@@ -47,40 +47,3 @@ Budgeting for a free event is difficult. When hackday came around, we expected u
 Looking back, it has been incredibly exciting and I feel very fortunate to have had the opportunity to peek into everyone's "data kitchen" while searching for a dataset, venues and sponsors. Even though we were turned down 9/10 times, I met a lot of passionate people, which, combined with our event's current growth rate, strengthens my belief that data science is gaining a lot of momentum in Melbourne. Our data science Meetup, for example, has grown to almost 4,000 members in just 2 years and every event is packed (is it really just the free pizza and beer? who knows).
 
 To ensure everyone's on the same page, I set up a long-term strategy for the Melbourne Datathon. I think it is most important for Melbourne Datathon to remain an independent, community-driven event. The Meetup should always be the sole organizer and fully in charge. We attract sponsors on the premises of contributing to the data science community in Melbourne, networking/hiring opportunities and brand exposure. If the dataset is corporate, the data sponsor should pitch in most of the prize money to take away any impression of "free labour." As beneficial (sponsoring-wise) as a corporate dataset may be, ultimately a community dataset would fit best with a community event. Hence, a societal dataset (in healtcare) is on our radar for next year. We are excited to see what the future holds!
-
-
-
-
-
-### Concept & tips
-There is a lot of help available on running traditional hackathons (like [this](http://hackdaymanifesto.com/) page) but very little guidance tailored to running a hackathon for data science. Therefore, I am sharing my experiences here in hopes of helping other data-enthusiasts getting started.
-
-The concept is simple. We provide the dataset; participants provide insights. There are no set tasks and there is very little initial guidance. Instead, we ask people to come up with their own questions. What is the value in the data? What are the business opportunities? What could the data be connected with to create new insights? Essentially, we want the datathon to be just like a real data science consulting job. 
-
-#### Things to look for in the dataset
-Use list 
-Size: laptop
-Previously unreleased
-
-#### 3 biggest challenges
-1. Getting the dataset 
-2. Budgeting for a free event 
-3. Finding sponsors and venues 
-
-
-
-## Kickoff
-Text
-## Hackday
-Text
-
-
-
-### Todo
-- Sharing the dataset
-- NDAs
-- Website
-- Communication
-- Social media
-- Get a good photographer
-- prize money from data sponsor to take away impression of free labour
