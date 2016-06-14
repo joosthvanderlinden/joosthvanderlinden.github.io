@@ -21,7 +21,7 @@ My passion is to combine applied mathematics and computer science in engineering
 
 **I can talk for hours about**
 
-- Data science and machine learning. I like to read everything on <a href="https://www.reddit.com/r/machinelearning">r/machinelearning</a> and <a href="https://www.reddit.com/r/datascience">r/datascience</a>. I also really recommend [Data Elixer](http://dataelixir.com/), KDNuggets and Data Science Weekly.
+- Data science and machine learning. I like to read everything on [r/machinelearning](https://www.reddit.com/r/machinelearning) and [r/datascience](https://www.reddit.com/r/datascience). I also really recommend [Data Elixer](http://dataelixir.com/), [KDNuggets](http://www.kdnuggets.com/) and [Data Science Weekly](http://datascienceweekly.org/).
 - My PhD research. I believe there is a lot of potential for the use of statistics and machine learning in engineering physics.
 - My MSc research on numerical linear solvers and preconditioning, which got published in the <a href="http://dx.doi.org/10.1016/j.jcp.2015.10.016">Journal of Computational Physics</a>, the <a href="http://dx.doi.org/10.3997/2214-4609.20141773">ECMOR XIV conference</a> and several workshops. I received the UfD-EBN Geo Energy Master Award for <a href="http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/">my thesis</a>.
 
