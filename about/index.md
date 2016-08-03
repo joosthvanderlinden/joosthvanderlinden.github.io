@@ -17,7 +17,7 @@ My passion is to combine applied mathematics and computer science in engineering
 - BSc and MSc in Applied Mathematics from The Delft University of Technology (cum laude).
 - Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to granular, porous media.
 - Research internships at Schlumberger, IBM and for a small energy consultant (Alboran), where I learned how to connect, communicate and collaborate.
-- I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted over 120 data enthusiasts in the first year.
+- I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year and over 300 in the second year.
 
 **I can talk for hours about**
 
