@@ -12,6 +12,7 @@ image:
 ---
 
 **Journal papers**
+
 - J.H. van der Linden, G.A Narsilio, and A. Tordesillas, "A machine learning framework for analysis of transport through complex networks in porous, granular media: a focus on permeability," Physical Review E, In Press, 2016.
 - J.H. van der Linden, T.B. Jönsthövel, A.A. Lukyanov, and C. Vuik, “The parallel subdomain-levelset deflation method in reservoir simulation,” Journal of Computational Physics, vol. 304, pp. 340–358, 2016.
 - R. Weijermars and J.H. van der Linden, “Assessing the economic margins of sweet spots in shale gas plays,” First Break, vol. 30, no. 12, pp. 99–106, 2012.
