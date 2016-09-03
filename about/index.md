@@ -13,6 +13,7 @@ image:
 My passion is to combine applied mathematics and coding in engineering and data science applications. I excel in environments with ample learning opportunities. Currently, I am lucky enough to build on all of these things in my PhD.
 
 **Summary**
+
 I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year and over 300 in the second year.
 
 - Cum laude BSc and MSc in Applied Mathematics from The Delft University of Technology.
