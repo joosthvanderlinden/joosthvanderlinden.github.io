@@ -10,20 +10,21 @@ image:
   credit: 
   creditlink: 
 ---
-My passion is to combine applied mathematics and computer science in engineering and data science applications. I excel in environments with ample learning opportunities. Currently, I am lucky enough to build on all of these things in my PhD.
+My passion is to combine applied mathematics and coding in engineering and data science applications. I excel in environments with ample learning opportunities. Currently, I am lucky enough to build on all of these things in my PhD.
 
-**Highlights**
+**Summary**
 
-- BSc and MSc in Applied Mathematics from The Delft University of Technology (cum laude).
+- Cum laude BSc and MSc in Applied Mathematics from The Delft University of Technology.
 - Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to granular, porous media.
 - Research internships at Schlumberger, IBM and for a small energy consultant (Alboran), where I learned how to connect, communicate and collaborate.
-- I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year and over 300 in the second year.
+
+I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year and over 300 in the second year.
 
 **I can talk for hours about**
 
-- Data science and machine learning. I like to read everything on [r/machinelearning](https://www.reddit.com/r/machinelearning) and [r/datascience](https://www.reddit.com/r/datascience). I also really recommend [Data Elixer](http://dataelixir.com/), [KDNuggets](http://www.kdnuggets.com/) and [Data Science Weekly](http://datascienceweekly.org/).
-- My PhD research. I believe there is a lot of potential for the use of statistics and machine learning in engineering physics.
-- My MSc research on numerical linear solvers and preconditioning, which got published in the <a href="http://dx.doi.org/10.1016/j.jcp.2015.10.016">Journal of Computational Physics</a>, the <a href="http://dx.doi.org/10.3997/2214-4609.20141773">ECMOR XIV conference</a> and several workshops. I received the UfD-EBN Geo Energy Master Award for <a href="http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/">my thesis</a>.
+- Data science and machine learning. I follow [r/machinelearning](https://www.reddit.com/r/machinelearning) and [r/datascience](https://www.reddit.com/r/datascience). My favourite data science blogger is [Yanir Seroussi](https://yanirseroussi.com/). I can also recommend [Data Elixer](http://dataelixir.com/), [KDNuggets](http://www.kdnuggets.com/) and [Data Science Weekly](http://datascienceweekly.org/).
+- My PhD research. I believe there is a lot of potential for the use of statistics and machine learning in engineering physics. My first article about feature selection was recently published in [Physical Review E](http://dx.doi.org/10.1103/PhysRevE.94.022904).
+- My MSc research on numerical linear solvers and preconditioning, which got published in the [Journal of Computational Physics](http://dx.doi.org/10.1016/j.jcp.2015.10.016), the [ECMOR XIV conference](http://dx.doi.org/10.3997/2214-4609.20141773) and several workshops. I received the UfD-EBN Geo Energy Master Award for [my thesis](http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/).
 
 
 ---
@@ -37,15 +38,15 @@ Click on a skill to read more about my experience, or
 </span>
 . 
 
-- <div onClick="openClose_skill('p1')" style="cursor:hand; cursor:pointer"><b>Python</b></div><div id="p1" class="texter"> 2 years experience. My language of choice for data analysis. Used in various projects for data tidying, data visualization, statistical analyses, machine learning, graph analytics, information retrieval. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn, rpy2. Tools: iPython, Spyder, regular expressions.<br /><br /></div>
+- <div onClick="openClose_skill('p1')" style="cursor:hand; cursor:pointer"><b>Python</b></div><div id="p1" class="texter"> 3 years experience. My language of choice for data analysis. Used in various research- and business-projects for data tidying, data visualization, statistical analyses, machine learning, graph analytics, information retrieval. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn, rpy2. Tools: iPython, Spyder, regular expressions.<br /><br /></div>
 
-- <div onClick="openClose_skill('p2')" style="cursor:hand; cursor:pointer"><b>C++</b></div><div id="p2" class="texter"> 3 years experience. My language of choice for speed. Used in various projects for advanced numerical (solver, preconditioning) algorithms, basic search algorithms, computational geometry, parallel computation. Libraries: STL, CGAL, OpenMP, MPI. Tools: Visual Studio, Xcode, CMake.<br /><br /></div>
+- <div onClick="openClose_skill('p2')" style="cursor:hand; cursor:pointer"><b>C++</b></div><div id="p2" class="texter"> 3 years experience. My language of choice for speed. Used in various research projects for advanced numerical (solver, preconditioning) algorithms, basic graph search algorithms, computational geometry and parallel computation. Libraries: STL, CGAL, OpenMP, MPI. Tools: Visual Studio, Xcode, CMake.<br /><br /></div>
  
 - <div onClick="openClose_skill('p3')" style="cursor:hand; cursor:pointer"><b>Matlab</b></div><div id="p3" class="texter"> 7 years experience. Language of choice for quick implementations and prototyping. Used throughout education for linear algebra and numerical analysis.<br /><br /></div>
 
-- <div onClick="openClose_skill('p4')" style="cursor:hand; cursor:pointer"><b>VBA</b></div><div id="p4" class="texter"> 3 years experience. Language of choice for Excel integration. Used to build various data dashboards, automated reporting, data management. <br /><br /></div>
+- <div onClick="openClose_skill('p4')" style="cursor:hand; cursor:pointer"><b>VBA</b></div><div id="p4" class="texter"> 3 years experience. Language of choice for Excel integration. Used to build various data dashboards, and to perform automated reporting and data management. <br /><br /></div>
 
 - <div onClick="openClose_skill('p5')" style="cursor:hand; cursor:pointer">Other</div><div id="p5" class="texter">
-  <b>Java</b>: undergraduate subject. <b>R</b>: explored graphical models for PhD research and did some forecasting. <b>HTML</b>/<b>Jekyll</b>/<b>Markdown</b>: this website. <b>Unix</b>: bash, compilation. <b>Photoshop</b>, <b>iMovie</b>: image/video editing. <b>Comsol</b>: physics simulations during PhD. <b>Paraview</b>: physics visualizations during PhD. Simpleware <b>ScanFE</b>: finite element meshing. <br /><br /></div>
+  <b>Java</b>: undergraduate subject. <b>R</b>: explored graphical models for PhD research and did some forecasting. <b>Spark</b>: online introductory courses on edX. <b>HTML</b>/<b>Jekyll</b>/<b>Markdown</b>: this website. <b>Unix</b>: bash, compilation. <b>Photoshop</b>, <b>iMovie</b>: image/video editing. <b>Comsol</b>: physics simulations during PhD. <b>Paraview</b>: physics visualizations during PhD. Simpleware <b>ScanFE</b>: finite element meshing. <br /><br /></div>
 
 ---
