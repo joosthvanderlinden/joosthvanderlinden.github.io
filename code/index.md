@@ -10,5 +10,5 @@ image:
   creditlink: 
 ---
 
-[Research data management](https://github.com/joosthvanderlinden/research-data-management)  
+[My data management](https://github.com/joosthvanderlinden/research-data-management)  
 A collection of `os` and `shutil` commands to manage a data directory.
