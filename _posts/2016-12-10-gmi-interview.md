@@ -13,3 +13,5 @@ comments: false
 </figure>
 
 ![Test]({{ site.url }}/images/GMI interview.pdf)
+
+[get the PDF]({{ site.url }}/images/GMI interview.pdf)
