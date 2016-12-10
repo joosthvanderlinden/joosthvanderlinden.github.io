@@ -9,9 +9,4 @@ comments: false
 
 <figure>
 	<a href="/images/GMI interview.pdf"><img src="/images/GMI interview.png"></a>
-	<figcaption>.</figcaption>
 </figure>
-
-![Test]({{ site.url }}/images/GMI interview.png)
-
-[get the PDF]({{ site.url }}/images/GMI interview.pdf)
