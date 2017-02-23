@@ -19,13 +19,16 @@ image:
 
 **Conference publications**
 
-- [abstract] J.H. van der Linden, G.A Narsilio, A. Tordesillas, T.S. Yun, “Predicting conduction parameters in porous media,” in EMI 2015 Engineering Mechanics Institute Conference, 16-19 June 2015.
+- [paper] J.H. van der Linden, A. Tordesillas, and G.A Narsilio, "Testing Occam’s razor to characterize high-order connectivity in pore networks of granular media: Feature selection in machine learning," in Powders & Grains, 3-7 July 2017.
+- [abstract] M. Disfani, G.A. Narsilio, T. Afshar, and J.H. van der Linden, "Synchrotron Tomography in Geotechnical Engineering Applications," in Australian Synchrotron User Meeting, 24-25 November 2016.
+- [abstract] J.H. van der Linden, G.A Narsilio, A. Tordesillas and T.S. Yun, “Predicting conduction parameters in porous media,” in EMI 2015 Engineering Mechanics Institute Conference, 16-19 June 2015.
 - [extended abstract] A.A. Lukyanov, J.H. van der Linden, T.B. Jönsthövel, and C. Vuik, “[Meshless Subdomain Deflation Vectors in the Preconditioned Krylov Subspace Iterative Solvers](http://www.earthdoc.org/publication/publicationdetails/?publication=77374),” in ECMOR XIV - 14th European Conference on the Mathematics of Oil Recovery, 8-11 September 2014.
 
 **Talks**
-
+- Data Science Melbourne Meetup & RMIT University Analytics, Statistics and Operations Research, and Data Science Industry Talk and Networking Night, February 2017
+- The Third Statistical Mechanics of Soft Matter Meeting, November 2016
 - Infrastructure Engineering Postgraduate Conference, November 2015 (**best presentation award**)
-- Australian Academy of Science White Conference on Mining Data for Detection & Prediction of Failure in Geomaterials , July 2015
+- Australian Academy of Science White Conference on Mining Data for Detection & Prediction of Failure in Geomaterials, July 2015
 - Engineering Mechanics Institute Conference, June 2015
 - Infrastructure Engineering Postgraduate Conference, November 2014 
 - Advances in High Performance Computing and its Applications Workshop, June 2013
