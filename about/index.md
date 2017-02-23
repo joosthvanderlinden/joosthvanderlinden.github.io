@@ -49,3 +49,6 @@ Click on a skill to read more about my experience, or
 - <div onClick="openClose_skill('p5')" style="cursor:hand; cursor:pointer">Other</div><div id="p5" class="texter">
   <b>Java</b>: undergraduate subject. <b>SQL</b>: data extraction in a few projects. <b>R</b>: explored graphical models for PhD research and did some forecasting. <b>Spark</b>: online introductory courses on edX. <b>HTML</b>/<b>Jekyll</b>/<b>Markdown</b>: this website. <b>Unix</b>: bash, compilation. <b>Photoshop</b>, <b>iMovie</b>: image/video editing. <b>Comsol</b>: physics simulations during PhD. <b>Paraview</b>: physics visualizations during PhD. Simpleware <b>ScanFE</b>: finite element meshing. <br /><br /></div>
 ---
+
+
+[talk](https://drive.google.com/open?id=1VJO185a27uT4ncTZCHCRQ79wcoBWCJwtDRzILSA6OUk)
