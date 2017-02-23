@@ -25,7 +25,8 @@ image:
 - [extended abstract] A.A. Lukyanov, J.H. van der Linden, T.B. Jönsthövel, and C. Vuik, “[Meshless Subdomain Deflation Vectors in the Preconditioned Krylov Subspace Iterative Solvers](http://www.earthdoc.org/publication/publicationdetails/?publication=77374),” in ECMOR XIV - 14th European Conference on the Mathematics of Oil Recovery, 8-11 September 2014.
 
 **Talks**
-- Data Science Melbourne Meetup & RMIT University Analytics, Statistics and Operations Research, and Data Science Industry Talk and Networking Night, February 2017
+- Data Science Melbourne Meetup, February 2017
+- RMIT University Analytics, Statistics and Operations Research, and Data Science Industry Talk and Networking Night, February 2017
 - The Third Statistical Mechanics of Soft Matter Meeting, November 2016
 - Infrastructure Engineering Postgraduate Conference, November 2015 (**best presentation award**)
 - Australian Academy of Science White Conference on Mining Data for Detection & Prediction of Failure in Geomaterials, July 2015
