@@ -19,6 +19,7 @@ I discovered my passion for data science by working as a data analyst for a Dutc
 - Cum laude BSc and MSc in Applied Mathematics from The Delft University of Technology.
 - Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to granular, porous media.
 - Research internships at Schlumberger, IBM and for a small energy consultant (Alboran), where I learned how to connect, communicate and collaborate.
+- Data analytics experience at Keyrail (railway operator), working with sensor data, performance data and dashboards. Data science experience at Our Community (software company and social enterprise), performing predictive modeling, time series analysis, AB experiments, text analytics, survey analysis and dashboard design.
 
 **I can talk for hours about**
 
