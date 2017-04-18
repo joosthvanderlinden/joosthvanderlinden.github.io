@@ -2,8 +2,8 @@
 layout: post
 title: "From Student to Scientist"
 excerpt: "Starting out in data analytics and data science"
-modified: 2016-12-10
-tags: [interview, data science, grantmaking]
+modified: 2017-04-18
+tags: [data science, student]
 comments: false
 ---
 
