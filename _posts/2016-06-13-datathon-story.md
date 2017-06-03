@@ -7,7 +7,7 @@ tags: [datathon]
 comments: false
 ---
 
-In this blog post, I will share my story and experiences on running a datathon in Melbourne. Running one yourself? Make sure you check out my other blogpost, in which I share my tips and lessons learned.
+In this blog post, I will share my story and experiences on running a datathon in Melbourne. Running one yourself? Make sure you check out my [other post](http://joosthvanderlinden.github.io/datathon-tips/), in which I share my tips and lessons learned, and the [overview video](http://joosthvanderlinden.github.io/datathon-video/) for a quick intro.
 
 ### Founding the Melbourne Datathon
 Back in December 2014, I read a few [articles](http://www.datanami.com/2014/11/24/datathons-emerge-training-recruitment-tool/) about the concept of a datathon and I thought it would be fun to organize one in Melbourne. But where to start? I had just started going to the local data science Meetup. I got in touch with the organizer ([Phil Brierley](https://au.linkedin.com/in/philbrierley)) who was immediately excited about the idea too. Lucky for me, Phil knows practically everyone and everything doing data science in Melbourne. I had found myself a co-organizer.
