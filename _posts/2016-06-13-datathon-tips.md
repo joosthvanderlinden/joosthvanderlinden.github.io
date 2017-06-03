@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Melbourne Datathon 2: How to organize a datathon"
-excerpt: "My tips and lessons learned from organizing the Melbourne Datathon"
+excerpt: "Tips, advice and lessons learned from organizing the Melbourne Datathon"
 modified: 2017-04-26
 tags: [datathon]
 comments: false
