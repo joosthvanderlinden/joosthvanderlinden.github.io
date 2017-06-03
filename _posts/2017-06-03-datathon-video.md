@@ -7,5 +7,3 @@ tags: [data science, datathon, melbourne]
 comments: false
 ---
 
-{% include video id="219267678" provider="vimeo" %}
-https://vimeo.com/219267678
