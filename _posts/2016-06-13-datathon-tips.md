@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "How to organize a datathon"
+title: "Melbourne Datathon 2: How to organize a datathon"
 excerpt: "My tips and lessons learned from organizing the Melbourne Datathon"
 modified: 2017-04-26
 tags: [datathon]
 comments: false
 ---
 
-There is a lot of help available on running traditional hackathons (like [this](http://hackdaymanifesto.com/) page) but very little guidance tailored to running a hackathon for data science. Therefore, I am sharing my experiences here in hopes of helping other data-enthusiasts getting started.
+There is a lot of help available on running traditional hackathons (like [this](http://hackdaymanifesto.com/) page) but very little guidance tailored to running a hackathon for data science. Therefore, I am sharing my experiences here in hopes of helping other data-enthusiasts getting started. Check out the [overview video](http://joosthvanderlinden.github.io/datathon-video/) for a quick intro.
 
 ## Concept
 The concept is simple. You provide the dataset; participants provide insights. What is the value in the data? What are the business opportunities? What corporate or societal problems can we solve with this data? What could the data be connected with to create new insights? Outcomes may include visualizations, insights into specific variables, predictions or analyses involving external datasets. Essentially, a datathon is like a real data science consulting job: here's a dataset, tell me something interesting.
