@@ -10,6 +10,9 @@ image:
   creditlink: 
 ---
 
+[Sphere packing network construction](https://github.com/joosthvanderlinden/SPNC)  
+One of the main `C++` projects in my PhD, to construct graphs for granular materials.
+
 [My data management](https://github.com/joosthvanderlinden/research-data-management)  
 A collection of `os` and `shutil` commands to manage a data directory.
 
