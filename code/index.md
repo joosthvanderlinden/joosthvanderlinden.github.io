@@ -11,7 +11,7 @@ image:
 ---
 
 [Sphere packing network construction](https://github.com/joosthvanderlinden/SPNC)  
-One of the main `C++` projects in my PhD, to construct graphs for granular materials.
+One of the main (open source) `C++` projects developed during my PhD, to construct graphs from granular materials.
 
 [My data management](https://github.com/joosthvanderlinden/research-data-management)  
 A collection of `os` and `shutil` commands to manage a data directory.
