@@ -14,7 +14,7 @@ My passion is to combine applied mathematics and coding in engineering and data 
 
 **Summary**
 
-I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year and over 300 in the second year.
+I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year, over 300 in the second year, and over 500 in our third and most recent edition.
 
 - Cum laude BSc and MSc in Applied Mathematics from The Delft University of Technology.
 - Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to granular, porous media.
@@ -39,9 +39,9 @@ Click on a skill to read more about my experience, or
 </span>
 . 
 
-- <div onClick="openClose_skill('p1')" style="cursor:hand; cursor:pointer"><b>Python</b></div><div id="p1" class="texter"> 3 years experience. My language of choice for data analysis. Used in various research- and business-projects for data tidying, data visualization, statistical analyses, machine learning, graph analytics, information retrieval. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn, rpy2. Tools: iPython, Spyder, regular expressions.<br /><br /></div>
+- <div onClick="openClose_skill('p1')" style="cursor:hand; cursor:pointer"><b>Python</b></div><div id="p1" class="texter"> 4 years experience. My language of choice for data analysis. Used in various research- and business-projects for data tidying, data visualization, statistical analyses, machine learning, graph analytics, information retrieval. Libraries: numpy, scipy, pandas, scikit-learn, networkx, matplotlib, seaborn, rpy2. Tools: iPython, Spyder, regular expressions.<br /><br /></div>
 
-- <div onClick="openClose_skill('p2')" style="cursor:hand; cursor:pointer"><b>C++</b></div><div id="p2" class="texter"> 3 years experience. My language of choice for speed. Used in various research projects for advanced numerical (solver, preconditioning) algorithms, basic graph search algorithms, computational geometry and parallel computation. Libraries: STL, CGAL, OpenMP, MPI. Tools: Visual Studio, Xcode, CMake.<br /><br /></div>
+- <div onClick="openClose_skill('p2')" style="cursor:hand; cursor:pointer"><b>C++</b></div><div id="p2" class="texter"> 4 years experience. My language of choice for speed. Used in various research projects for advanced numerical (solver, preconditioning) algorithms, basic graph search algorithms, computational geometry and parallel computation. Libraries: STL, CGAL, OpenMP, MPI. Tools: Visual Studio, Xcode, CMake.<br /><br /></div>
  
 - <div onClick="openClose_skill('p3')" style="cursor:hand; cursor:pointer"><b>Matlab</b></div><div id="p3" class="texter"> 7 years experience. Language of choice for quick implementations and prototyping. Used throughout education for linear algebra and numerical analysis.<br /><br /></div>
 
