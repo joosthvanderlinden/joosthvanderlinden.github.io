@@ -11,7 +11,9 @@ image:
   creditlink: 
 ---
 
-[//]: <> (Ethnography of Data: learning about the social context behind our data)
+[//]: <> (Ethnography of Data: learning about the social context behind our data. Include qualitative insights and treat systems less like an “experimental black box”.)
+
+
 
 
 My passion is to combine applied mathematics and coding in engineering and data science applications. I excel in environments with ample learning opportunities. Currently, I am lucky enough to build on all of these things in my PhD.
