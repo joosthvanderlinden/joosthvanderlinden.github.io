@@ -10,19 +10,23 @@ image:
   credit: 
   creditlink: 
 ---
+
+[//]: <> (Ethnography of Data: learning about the social context behind our data)
+
+
 My passion is to combine applied mathematics and coding in engineering and data science applications. I excel in environments with ample learning opportunities. Currently, I am lucky enough to build on all of these things in my PhD.
 
 **Summary**
 
-I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year, over 300 in the second year, and over 500 in our third and most recent edition.
+I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year, over 300 in the second year, and over 500 in our 2017 edition.
 
 - Cum laude BSc and MSc in Applied Mathematics from The Delft University of Technology.
 - Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to granular, porous media.
 - Research internships at Schlumberger, IBM and for a small energy consultant (Alboran), where I learned how to connect, communicate and collaborate.
-- Data analytics experience at Keyrail (railway operator), working with sensor data, performance data and dashboards. Data science experience at Our Community (software company and social enterprise), performing predictive modeling, time series analysis, AB experiments, text analytics, survey analysis and dashboard design.
+- Data analytics experience at Keyrail (railway operator), working with sensor data, performance data and dashboards. 
+- Data science experience at Our Community (software company and social enterprise), performing predictive modeling, time series analysis, AB experiments, text analytics, survey analysis and dashboard design.
 
-**I can talk for hours about**
-
+**Ask me about**
 - Data science and machine learning. I follow [r/machinelearning](https://www.reddit.com/r/machinelearning) and [r/datascience](https://www.reddit.com/r/datascience). My favourite data science blogger is [Yanir Seroussi](https://yanirseroussi.com/). I can also recommend [Data Elixer](http://dataelixir.com/), [KDNuggets](http://www.kdnuggets.com/) and [Data Science Weekly](http://datascienceweekly.org/).
 - My PhD research. I believe there is a lot of potential for the use of statistics and machine learning in engineering physics. My first article about feature selection was recently published in [Physical Review E](http://dx.doi.org/10.1103/PhysRevE.94.022904).
 - My MSc research on numerical linear solvers and preconditioning, which got published in the [Journal of Computational Physics](http://dx.doi.org/10.1016/j.jcp.2015.10.016), the [ECMOR XIV conference](http://dx.doi.org/10.3997/2214-4609.20141773) and several workshops. I received the UfD-EBN Geo Energy Master Award for [my thesis](http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/).
