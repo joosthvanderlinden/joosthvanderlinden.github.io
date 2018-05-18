@@ -29,10 +29,11 @@ I discovered my passion for data science by working as a data analyst for a Dutc
 - Data science experience at Our Community (software company and social enterprise), performing predictive modeling, time series analysis, AB experiments, text analytics, survey analysis and dashboard design.
 
 **Ask me about**
-- Data science and machine learning. I follow [r/machinelearning](https://www.reddit.com/r/machinelearning) and [r/datascience](https://www.reddit.com/r/datascience). My favourite data science blogger is [Yanir Seroussi](https://yanirseroussi.com/). I can also recommend [Data Elixer](http://dataelixir.com/), [KDNuggets](http://www.kdnuggets.com/) and [Data Science Weekly](http://datascienceweekly.org/).
-- My PhD research. I believe there is a lot of potential for the use of statistics and machine learning in engineering physics. My first article about feature selection was recently published in [Physical Review E](http://dx.doi.org/10.1103/PhysRevE.94.022904).
-- My MSc research on numerical linear solvers and preconditioning, which got published in the [Journal of Computational Physics](http://dx.doi.org/10.1016/j.jcp.2015.10.016), the [ECMOR XIV conference](http://dx.doi.org/10.3997/2214-4609.20141773) and several workshops. I received the UfD-EBN Geo Energy Master Award for [my thesis](http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/).
-
+- The bias trade-off for algorithmic decision making ([white paper](https://www.ourcommunity.com.au/general/general_article.jsp?articleid=7388))
+- Transitioning from student to data scientist ([talk](http://joosthvanderlinden.github.io/meetup-talk/))
+- Organising a hackathon for data science (blogs [1](http://joosthvanderlinden.github.io/datathon-story/), [2](http://joosthvanderlinden.github.io/datathon-tips/) and [video](http://joosthvanderlinden.github.io/datathon-video/))
+- Complex networks and machine learning ([journal paper](http://dx.doi.org/10.1103/PhysRevE.94.022904))
+- Numerical linear solvers and preconditioning ([journal paper](http://dx.doi.org/10.1016/j.jcp.2015.10.016) and [MSc thesis](http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/))
 
 ---
 Click on a skill to read more about my experience, or 
