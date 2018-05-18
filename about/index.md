@@ -31,7 +31,7 @@ I discovered my passion for data science by working as a data analyst for a Dutc
 **Ask me about**
 - The bias trade-off for algorithmic decision making ([white paper](https://www.ourcommunity.com.au/general/general_article.jsp?articleid=7388))
 - Transitioning from student to data scientist ([talk](http://joosthvanderlinden.github.io/meetup-talk/))
-- Organising a hackathon for data science (blogs [1](http://joosthvanderlinden.github.io/datathon-story/), [2](http://joosthvanderlinden.github.io/datathon-tips/) and [video](http://joosthvanderlinden.github.io/datathon-video/))
+- Organising a hackathon for data science ([blog](http://joosthvanderlinden.github.io/datathon-tips/) and [video](http://joosthvanderlinden.github.io/datathon-video/))
 - Complex networks and machine learning ([journal paper](http://dx.doi.org/10.1103/PhysRevE.94.022904))
 - Numerical linear solvers and preconditioning ([journal paper](http://dx.doi.org/10.1016/j.jcp.2015.10.016) and [MSc thesis](http://repository.tudelft.nl/view/ir/uuid:47cbb291-6b1e-4572-b384-f79a8cf7e535/))
 
