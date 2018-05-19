@@ -29,7 +29,7 @@ I discovered my passion for data science by working as a data analyst for a Dutc
 - Data science experience at Our Community (software company and social enterprise), performing predictive modeling, time series analysis, AB experiments, text analytics, survey analysis and dashboard design.
 
 **Ask me about**
-- Data science for not-for-profit organisations (research on [donations](https://www.givenow.com.au/stats) and [grants](https://www.ourcommunity.com.au/grants2017))
+- Data science for fundraising activities (research on [donations](https://www.givenow.com.au/stats) and [grants](https://www.ourcommunity.com.au/grants2017))
 - The bias trade-off for algorithmic decision making ([white paper](https://www.ourcommunity.com.au/general/general_article.jsp?articleid=7388))
 - Transitioning from student to data scientist ([talk](http://joosthvanderlinden.github.io/meetup-talk/))
 - Organising a hackathon for data science ([blog](http://joosthvanderlinden.github.io/datathon-tips/) and [video](http://joosthvanderlinden.github.io/datathon-video/))
