@@ -17,7 +17,7 @@ comments: false
 
 This post summarizes my notes from a brief detour during my PhD to study causality and conditional independence. At the time, we had just finished a piece of research on identifying the *most relevant* and *least redundant* set of features for a prediction problem related to fluid flow in porous media[^fn1]. I then wondered if Probabilistic Graphical Models could provide even more rigorous (perhaps even causal) statistical relationships. I concluded, in the end, that causality was beyond reach due to a lack of causal sufficiency in our data. Establishing conditional independence might have been feasible, but at the time I found that most established methods could not deal with non-Gaussian, continuous data. There have been some exciting developments since then, especially in the area of [additive noise models](https://arxiv.org/abs/1309.6779).
 
-- Under construction -
+- Under construction
 
 ## Introduction
 In this note, I discuss the use of probabilistic graphical models (PGMs) as a tool to analyze conditional dependencies. PGMs aid in the discovery of marginal, conditional and (under strict assumptions) even causal relations between a set of variables. Before proceeding, we have to ask ourselves: are we dealing with a *prediction* problem or an *inference* (*discovery*) problem? Given a set of features, do we aim to predict the target variable of interest, or "explain" it? Understanding the difference is crucial in order to avoid erroneous inductions (See Aliferis et al.[^fn2] and [To Explain or To Predict?](https://projecteuclid.org/euclid.ss/1294167961)). In a supervised prediction problem, the goal is to 1) establish a predictive model including a choice of features, learning algorithm and performance metric, and 2) train the model on labeled instances and predict the permeability on unlabeled instances. An inference task, on the other hand, is more focused on testing causal relations between variables, accepting or rejecting hypotheses and understanding conditional (in)dependencies in the data. 
@@ -39,14 +39,16 @@ For graphs, we use \\(\mathbf{V}\\) to denote the set of vertices (nodes) and \\
 #### Conditional independence
 Formally, conditional independence is defined as follows. Variables \\(X\\) and \\(Y\\) are conditionally independent given a set of variables \\(\mathbf{Z}\\) if and only if
 
-$$ P(X=x,Y=y\mid\mathbf{Z}=\mathbf{z}) = P(X=x\mid\mathbf{Z}=\mathbf{z})P(Y=y\mid\mathbf{Z}=\mathbf{z}),\ \forall x\in Val(X),\ y\in Val(Y),\ \mathbf{z}\in Val(\mathbf{Z})\ \text{where}\ P(\mathbf{Z}=\mathbf{z}) > 0 \nonumber$$
+$$ 
+	P(X=x,Y=y\mid\mathbf{Z}=\mathbf{z}) = P(X=x\mid\mathbf{Z}=\mathbf{z})P(Y=y\mid\mathbf{Z}=\mathbf{z}),\\
+	\forall x\in Val(X),\ y\in Val(Y),\ \mathbf{z}\in Val(\mathbf{Z})\ \text{where}\ P(\mathbf{Z}=\mathbf{z}) > 0 \nonumber
+$$
 
 If this equation holds, we write \\(X\CI Y\mid\mathbf{Z}\\). Conditional independence implies that given the knowledge of \\(\mathbf{Z}\\), there is no additional evidence that \\(X\\) has any influence on \\(Y\\) and vice-versa. For example[^fn3], let \\(X\\) be the variable stating whether or not a child is a member of a scouting club, and let \\(Y\\) be the variable stating whether or not a child is a delinquent. Survey data might show that \\(X\\) and \\(Y\\) are *marginally* dependent, i.e. members of a scouting club have a lower probability of being a delinquent. What if, however, we consider the socio-economic status of the child, measured by a variable \\(Z\\)? Survey data could now show that, given knowledge of \\(Z\\), there is no additional effect of \\(X\\) on \\(Y\\). In other words, the socio-economic status fully explains any relationship we observe between scouting membership and delinquency.
 
 The relationship between \\(X\\), \\(Y\\) and \\(Z\\) can be represented in a *graphical model*, as shown in the next figure. 
 <figure>
 	<a href="/images/pgm_conditional_independence.png"><img src="/images/pgm_conditional_independence.png"></a>
-	<figcaption>Conditional independence: \\(X\CI Y\mid Z\\).</figcaption>
 </figure>
 Nodes represent variables and edges (link) represent influence.
 
