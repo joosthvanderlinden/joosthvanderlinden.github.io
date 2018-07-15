@@ -10,6 +10,10 @@ comments: false
 <!-- Inline math replace:  -->
 <!-- \$(.*?)\$  -->
 <!-- \\\\($1\\\\)  -->
+\\(
+	\newcommand{\CI}{\mathrel{\perp\mspace{-10mu}\perp}}
+	\newcommand{\nCI}{\centernot{\CI}}
+\\)
 
 This post summarizes my notes from a brief detour during my PhD to study causality and conditional independence. At the time, we had just finished a piece of research on identifying the *most relevant* and *least redundant* set of features for a prediction problem related to fluid flow in porous media[^fn1]. I then wondered if Probabilistic Graphical Models could provide even more rigorous (perhaps even causal) statistical relationships. I concluded, in the end, that causality was beyond reach due to a lack of causal sufficiency in our data. Establishing conditional independence might have been feasible, but at the time I found that most established methods could not deal with non-Gaussian, continuous data. There have been some exciting developments since then, especially in the area of [additive noise models](https://arxiv.org/abs/1309.6779).
 
@@ -34,10 +38,12 @@ For graphs, we use \\(\mathbf{V}\\) to denote the set of vertices (nodes) and \\
 
 #### Conditional independence
 Formally, conditional independence is defined as follows. Variables \\(X\\) and \\(Y\\) are conditionally independent given a set of variables \\(\mathbf{Z}\\) if and only if
+
 $$
 	P(X=x,Y=y\mid\mathbf{Z}=\mathbf{z}) = P(X=x\mid\mathbf{Z}=\mathbf{z})P(Y=y\mid\mathbf{Z}=\mathbf{z}),\\
 	\forall x\in Val(X),y\in Val(Y),\mathbf{z}\in Val(\mathbf{Z})\ \text{where}\ P(\mathbf{Z}=\mathbf{z}) > 0 \nonumber
 $$
+
 If this equation holds, we write \\(X\CI Y\mid\mathbf{Z}\\). Conditional independence implies that given the knowledge of \\(\mathbf{Z}\\), there is no additional evidence that \\(X\\) has any influence on \\(Y\\) and vice-versa. For example[^fn3], let \\(X\\) be the variable stating whether or not a child is a member of a scouting club, and let \\(Y\\) be the variable stating whether or not a child is a delinquent. Survey data might show that \\(X\\) and \\(Y\\) are \textit{marginally} dependent, i.e. members of a scouting club have a lower probability of being a delinquent. What if, however, we consider the socio-economic status of the child, measured by a variable \\(Z\\)? Survey data could now show that, given knowledge of \\(Z\\), there is no additional effect of \\(X\\) on \\(Y\\). In other words, the socio-economic status fully \textit{explains} any relationship we observe between scouting membership and delinquency.
 
 
