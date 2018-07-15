@@ -50,7 +50,9 @@ The relationship between \\(X\\), \\(Y\\) and \\(Z\\) can be represented in a *g
 <figure>
 	<a href="/images/pgm_conditional_independence.png"><img src="/images/pgm_conditional_independence.png"></a>
 </figure>
-Nodes represent variables and edges (link) represent influence.
+Nodes represent variables and edges (link) represent influence. Graphical models will be explained in further detail after the concept of *conditional dependence* is introduced.
+
+#### Conditional dependence
 
 
 
