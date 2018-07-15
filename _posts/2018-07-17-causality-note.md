@@ -39,14 +39,16 @@ For graphs, we use \\(\mathbf{V}\\) to denote the set of vertices (nodes) and \\
 #### Conditional independence
 Formally, conditional independence is defined as follows. Variables \\(X\\) and \\(Y\\) are conditionally independent given a set of variables \\(\mathbf{Z}\\) if and only if
 
-$$
-	P(X=x,Y=y\mid\mathbf{Z}=\mathbf{z}) = P(X=x\mid\mathbf{Z}=\mathbf{z})P(Y=y\mid\mathbf{Z}=\mathbf{z}),\\
-	\forall x\in Val(X),y\in Val(Y),\mathbf{z}\in Val(\mathbf{Z})\ \text{where}\ P(\mathbf{Z}=\mathbf{z}) > 0 \nonumber
-$$
+$$ P(X=x,Y=y\mid\mathbf{Z}=\mathbf{z}) = P(X=x\mid\mathbf{Z}=\mathbf{z})P(Y=y\mid\mathbf{Z}=\mathbf{z}),\ \forall x\in Val(X),\ y\in Val(Y),\ \mathbf{z}\in Val(\mathbf{Z})\ \text{where}\ P(\mathbf{Z}=\mathbf{z}) > 0 \nonumber$$
 
-If this equation holds, we write \\(X\CI Y\mid\mathbf{Z}\\). Conditional independence implies that given the knowledge of \\(\mathbf{Z}\\), there is no additional evidence that \\(X\\) has any influence on \\(Y\\) and vice-versa. For example[^fn3], let \\(X\\) be the variable stating whether or not a child is a member of a scouting club, and let \\(Y\\) be the variable stating whether or not a child is a delinquent. Survey data might show that \\(X\\) and \\(Y\\) are \textit{marginally} dependent, i.e. members of a scouting club have a lower probability of being a delinquent. What if, however, we consider the socio-economic status of the child, measured by a variable \\(Z\\)? Survey data could now show that, given knowledge of \\(Z\\), there is no additional effect of \\(X\\) on \\(Y\\). In other words, the socio-economic status fully \textit{explains} any relationship we observe between scouting membership and delinquency.
+If this equation holds, we write \\(X\CI Y\mid\mathbf{Z}\\). Conditional independence implies that given the knowledge of \\(\mathbf{Z}\\), there is no additional evidence that \\(X\\) has any influence on \\(Y\\) and vice-versa. For example[^fn3], let \\(X\\) be the variable stating whether or not a child is a member of a scouting club, and let \\(Y\\) be the variable stating whether or not a child is a delinquent. Survey data might show that \\(X\\) and \\(Y\\) are *marginally* dependent, i.e. members of a scouting club have a lower probability of being a delinquent. What if, however, we consider the socio-economic status of the child, measured by a variable \\(Z\\)? Survey data could now show that, given knowledge of \\(Z\\), there is no additional effect of \\(X\\) on \\(Y\\). In other words, the socio-economic status fully explains any relationship we observe between scouting membership and delinquency.
 
-
+The relationship between \\(X\\), \\(Y\\) and \\(Z\\) can be represented in a *graphical model*, as shown in the next figure. 
+<figure>
+	<a href="/images/pgm_conditional_independence.png"><img src="/images/pgm_conditional_independence.png"></a>
+	<figcaption>Conditional independence: \\(X\CI Y\mid Z\\).</figcaption>
+</figure>
+Nodes represent variables and edges (link) represent influence.
 
 
 
