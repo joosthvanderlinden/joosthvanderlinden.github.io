@@ -13,14 +13,7 @@ image:
 
 [//]: <> (Ethnography of Data: learning about the social context behind our data. Include qualitative insights and treat systems less like an “experimental black box”.)
 
-
-
-
-My passion is to combine applied mathematics and coding in engineering and data science applications. I excel in environments with ample learning opportunities. Currently, I am lucky enough to build on all of these things in my PhD.
-
-**Summary**
-
-I discovered my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data, and as data scientist for Our Community, analyzing grant and donation data. I founded and co-organize the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year, over 300 in the second year, and over 500 in our 2017 edition.
+I enjoy combining applied mathematics and software development for engineering and data science applications. Currently, I am lucky enough to build on all of these things in my PhD and job as a Data Scientist. I developed my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data. I founded and co-organized the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year, over 300 in the second year, and over 500 in our 2017 edition.
 
 - Cum laude BSc and MSc in Applied Mathematics from The Delft University of Technology.
 - Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to granular, porous media.
@@ -56,5 +49,5 @@ Click on a skill to read more about my experience, or
 - <div onClick="openClose_skill('p4')" style="cursor:hand; cursor:pointer"><b>VBA</b></div><div id="p4" class="texter"> 3 years experience. Language of choice for Excel integration. Used to build various data dashboards, and to perform automated reporting and data management. <br /><br /></div>
 
 - <div onClick="openClose_skill('p5')" style="cursor:hand; cursor:pointer">Other</div><div id="p5" class="texter">
-  <b>Java</b>: undergraduate subject. <b>SQL</b>: data extraction in a few projects. <b>R</b>: explored graphical models for PhD research and did some forecasting. <b>Spark</b>: online introductory courses on edX. <b>HTML</b>/<b>Jekyll</b>/<b>Markdown</b>: this website. <b>Unix</b>: bash, compilation. <b>Photoshop</b>, <b>iMovie</b>: image/video editing. <b>Comsol</b>: physics simulations during PhD. <b>Paraview</b>: physics visualizations during PhD. Simpleware <b>ScanFE</b>: finite element meshing. <br /><br /></div>
+  <b>Java</b>: undergraduate subject. <b>SQL</b>: data extraction in a few projects. <b>R</b>: explored graphical models for PhD research and did some forecasting. <b>SQL</b>: developed a few visualizations, including a [scroller](http://vallandingham.me/scroller.html). <b>Spark</b>: online introductory courses on edX. <b>HTML</b>/<b>Jekyll</b>/<b>Markdown</b>: this website. <b>Unix</b>: bash, compilation. <b>Photoshop</b>, <b>iMovie</b>: image/video editing. <b>Comsol</b>: physics simulations during PhD. <b>Paraview</b>: physics visualizations during PhD. Simpleware <b>ScanFE</b>: finite element meshing. <br /><br /></div>
 ---
