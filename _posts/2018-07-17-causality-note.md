@@ -53,6 +53,84 @@ The relationship between \\(X\\), \\(Y\\) and \\(Z\\) can be represented in a *g
 Nodes represent variables and edges (link) represent influence. Graphical models will be explained in further detail after the concept of *conditional dependence* is introduced.
 
 #### Conditional dependence
+If the equation presented in the previous section does not hold, we write \\(X\nCI Y\mid\mathbf{Z}\\) and we say that \\(X\\) and \\(Y\\) are conditionally dependent given \\(\mathbf{Z}\\). Intuitively, conditional dependence can be understood as a "competing" explanation by \\(X\\) and \\(Y\\), for a phenomenon \\(\mathbf{Z}\\). For example[^fn4], let \\(X\\) by a variable stating whether or not the sprinkler is on and let \\(Y\\) be a variable stating whether or not it is raining. Lastly, let \\(Z\\) be a variable stating whether or the grass is wet. If we know that the grass is wet and we know that it is raining, then the probability that the sprinkler is on goes down. In other words, \\(X\\) has *explained away* \\(Z\\).
+
+The conditional dependence described above can be graphically represented as shown in the next figure.
+<figure>
+	<a href="/images/pgm_conditional_dependence.png"><img src="/images/pgm_conditional_dependence.png"></a>
+</figure>
+Note that, in this example, the (likely) marginal dependence between \\(X\\) and \\(Y\\) is ignored.
+
+#### Graphical models
+The networks in the previous two figures are examples of *Bayesian networks*, or directed graphical models, in which the edges have a direction assigned to them. In contrast, the edges in *Markov networks*, or undirected graphical models, are undirected. Both Bayesian and Markov networks can be used to visualize the factorization of the joint probability distribution \\(J\\) for a set of variables \\(\mathbf{X}\\).
+
+Formally, a Bayesian network is a graphical model that encodes the conditional dependencies of a set of random variables in a directed acyclic graph (DAG). The joint probability distribution of a set of variables in a Bayesian network is readily derived by considering the parents of each variable:
+
+$$
+	P(\mathbf{X}) = \prod_{X\in \mathbf{X}} P(X\mid \text{\textbf{Parents}}(X))
+$$
+
+For example, from the conditional independence example, we know that \\(P(X,Y,Z)\\) factorizes as \\(P(X\mid Z)P(Y\mid Z)P(Z)\\). The *Markov condition* states that every variable \\(X\\) is conditionally independent of all other variables that are neither parents nor children of \\(X\\), given the parents of \\(X\\). The Markov condition generalizes to the criterion of \textit{d-separation} for conditional independence, for which the full details are beyond the scope of this note (see Pearl[^fn5]). It is sufficient to know, at this point, that d-separation is a set of rules that allows us to infer the conditional independencies from a DAG. Under certain assumptions, which will be discussed in the next section, Bayesian networks can be used to capture causal structures[^fn6].
+
+A Markov network captures the conditional (in)dependencies in an undirected graph. Inferring these dependencies is straightforward, using the following three \textit{Markov properties}:
+
+- **Pairwise Markov property**. Two non-adjacent variables are conditionally independent given all other variables. 
+- **Local Markov property**. A single variable is conditionally independent of all other variables given its neighbors. The local Markov property is the Markov network-equivalent of the Markov condition in Bayesian networks.
+- **Global Markov property**. Two sets of variables \\(\mathbf{X}\\) and \\(\mathbf{Y}\\) are conditionally independent given a third set \\(\mathbf{Z}\\) if \\(\mathbf{Z}\\) is a \textit{separating} subset.
+
+The term "separating subset" can be understood in the intuitive sense, i.e. a set \\(\mathbf{Z}\\) is a separating set of \\(\mathbf{X}\\) and \\(\mathbf{Y}\\) if every path between \\(\mathbf{X}\\) and \\(\mathbf{Y}\\) passes through one or more variables in \\(\mathbf{Z}\\). For example, \\(Z\\) would be a separating subset of \\(X\\) and \\(Y\\) in the examples shown in previous sections, if both networks were undirected.
+
+The *Markov blanket* \\(MB(T)\\) of the target variable \\(T\\) in a Bayesian network is the union of \\(\text{\textbf{Children}}(T)\\), \\(\text{\textbf{Parents}}(T)\\) and \\(\text{\textbf{Parents}}(\text{\textbf{Children}}(T))\\). In a Markov network, \\(MB(T)\\) is the set of nodes adjacent to \\(T\\). The Markov blanket has the useful property that for every set of variables \\(\mathbf{X}\\) with no members in \\(MB(T)\\), we know that \\(\mathbf{X}\CI T \mid MB(T)\\)[^fn5]. *This implies that the Markov blanket contains all necessary information to describe and predict} \\(T\\)\textit{, and any other variables are essentially redundant.*
+
+#### Assumptions for independence and causality
+In his introduction to causal inference, Scheines[^fn7] explains the difference between the assumptions required to infer probabilistic independence and the assumptions required to infer causality, a theory developed by Spirtes et al.[^fn6]. To understand these assumptions, we first introduce the concept of \textit{latent variables} In practice, there are many unmeasured, or even unknown, variables in granular, porous media. Such variables are called latent variables. Among the latent variables, there may variables that induce relations between pairs of variables that do not correspond to causal relations between them[^fn8]. These variables are called *confounding factors*. For example, had we not measured \\(Z\\) in the conditional independence example, then socio-economic background would have been a confounding factor for the observed relation between boy scout membership and delinquency.
+
+If we are content with inferring conditional independence, then \\(d\\)-separation (for Bayesian networks) and the Markov properties (for Markov networks) provide us with all the necessary tools. That is, assuming that the graphical model we obtained (through structure learning, discussed later) is an accurate representation of the true data, entailing the correct conditional independencies. Assuming that the conditional independencies encoded in the true distribution exactly equal the ones encoded in a DAG (via d-separation) is referred to as the *faithfulness assumption*. More specifically, the graph \\(G\\) is *faithful* to the joint distribution \\(J\\) of a set of variables \\(\mathbf{X}\\), meaning that every (conditional) independence in \\(J\\) can be derived from \\(G\\) using d-separation. The faithfulness assumptions also guarantees that the Markov blanket is unique[^fn10].
+
+On top of the faitfulness assumption, inferring causality using Bayesian networks requires two additional assumptions. Firstly, \textit{causal sufficiency} has to hold for the observed set of variables \\(\mathbf{X}\\), meaning that for every pair of variables in \\(\mathbf{X}\\), all common causes are also measured[^fn6]. In other words, there should not be any confounding factors. Secondly, the Bayesian network \\(G\\) and joint probability distribution \\(J\\) needs to satisfy the \textit{causal Markov condition}, which implies, in turn, (1) that \\(G\\) contains an edge from \\(X\\) to \\(Y\\) if and only if \\(X\\) is a direct cause of \\(Y\\), and (2) that the set of variables \\(\mathbf{X}\\) giving rise to \\(J\\) is causally sufficient. Under the causal sufficiency and faithfulness assumptions, the Markov blanket in a Bayesian network contains the direct causes, direct effects and the direct causes of the direct effects of \\(T\\)[^fn2].
+
+As noted in the introduction, in our application of granular, porous media, the causal sufficiency assumption does not hold. It is not feasible to measure \textit{all} known parameters (from literature) for our samples and even if we could, there is no guarantee that there are undiscovered parameters that may act as confounding factors. As a result, \textit{correlation does not imply causation} in our data and we are very limited in our ability to draw conclusions regarding causality. The "next best" inference we can do is conditional (in)dependence, which is what we will focus on in the remaining sections. We will assume faithfulness, which is reasonable in our case and, in literature, widly embraced[^fn7].
+
+### Feature Selection
+Before we turn to the topic of structure learning, we first motivate the use of such methods by introducing feature selection. The feature selection problem is defined as follows[^fn2]: Given a \\(N\\) instances of a variable set \\(\mathbf{X}\\) drawn from the true distribution \\(D\\), a prediction algorithm \\(C\\) and a \textit{loss} (model-performance) function \\(L\\), find the smallest subset of variables \\(\mathbf{F} \subseteq \mathbf{X}\\) such that \\(\mathbf{F}\\) minimizes the expected loss \\(L(M,D)\\), where \\(M\\) is the model trained using algorithm \\(C\\) and the feature set \\(\mathbf{F}\\). Informally, we aim to find the feature set \\(\mathbf{F}\\) that "optimally" characterizes the target variable \\(T\\)[^fn13].
+
+In the previous section, we discussed the inference of conditional (in)dependence from Bayesian and Markov networks. The question is now: how do we utilize these tools for the purpose of feature selection and inference? Aliferis et al.[^fn2] center their discussion on this topic around the Markov blanket. Indeed, given the fact that \\(\mathbf{X}\CI T \mid MB(T)\\), members of \\(MB(T)\\) intuitively seem like promising candidates for our maximally relevant and minimally redundant feature set.  
+
+The theoretical link between feature selection, Markov blankets and the definition of feature "relevance" is rigorously examined by Tsamardinos et al.[^fn12], connecting their insights with the classical relevance definition by Kohavi and John[^fn11]. Tsamardinos et al. find, among other insights, that:
+
+- 1. Feature relevance is always dependent on the choice of prediction algorithm and model-performance metric. There is no universally applicable definition of relevancy for prediction.
+- 2.1. *Strongly relevant* features, which contain information about \\(T\\) not found in any other features, are members of \\(MB(T)\\).
+- 2.2. *Weakly relevant* features, which contain information about \\(T\\) also found in other features, are not members of \\(MB(T)\\) but have an undirected path to \\(T\\)
+- 2.3. *Irrelevant* features, which contain no information about \\(T\\), are not members of \\(T\\) and have no undirected path to \\(T\\). 
+- 3. Assuming that classification method can learn the distribution \\(P(T\mid MB(T))\\) and the model-performance metric is such that the perfect estimation (optimal score of the metric) is attained with the smallest number of variables, then the Markov blanket of \\(T\\) is the *optimal* solution of the feature selection problem stated at the start of this section.
+
+Although some assumptions have to be made, the listed insights support the Markov blanket as a promising (perhaps even optimal) solution to the feature selection problem. On top of that, we know from the previous section that we can infer conditional (in)dependencies from the Markov blanket and the surrounding Bayesian/Markov network, providing insight into the relation structure.
+
+In summary, we have motivated the use of graphical models for feature selection by defining feature relevance and by introducing the Markov blanket. Moreover, we demonstrated the usefulness of graphical models for inference of conditional dependency and causality in previous sections. Throughout this discussion, we assumed the graphical model was known. In practice, we need to construct the model based on a set of observations. To this end, we introduce \textit{structure learning} in the next section.
+
+### Structure learning
+Structure learning for Markov and Bayesian networks has been the subject of extensive research in the last two decades [^fn6][^fn14][^fn15]. The main objective is to learn the structure of the graphical model, based on a dataset of observations of the variables involved. Although some algorithms (see e.g. Koller and Mehran[^fn9]) have been designed to only learn the Markov blanket, we focus on the more general problem of learning the structure between all variables. Several approaches to structure learning can be distinguished:
+
+1. Score-based structure learning [^fn16]
+2. Constraint-based structure learning[^fn6]
+3. Other methods (hybrid, restricted structural equation models, additive noise models)
+
+We discuss each approach in the upcoming subsections, and list several algorithms from literature.
+
+#### Score-based learning
+Structure learning using score-based methods proceeds in two steps[^fn8]. First, we define a scoring function that evaluates how well the model structure matches the observations. Second, we employ an algorithm that searches the combinatorial space of all possible model structures for the particular model structure that optimizes the scoring function. To move through the search space, we can add edges, delete edges, and, in the case of Bayesian networks, reverse the direction of edges.
+
+A number of scoring functions can be defined:
+
+- *Likelihood score*
+- *Akaike's Information Criterion* (AIC)
+- *Bayesian Information Criterion* (BIC)
+
+For the second stage of score-based learning, the objective is to minimize the scoring function. A number of search algorithms have been proposed, including:
+
+- **Stepwise methods** for Markov networks start with an empty network and add edges (forward search) or start with a fully saturated network and delete edges (backward search) that result in the largest decrease in the scoring function.
+- **Hill-climbing methods** start with an empty network, random network, or an initial network based on prior (expert) knowledge, and proceed to iteratively compute the score for all possible perturbations. The algorithm then picks the perturbation (i.e. edge addition/removal/reversal) that results in the largest score improvement. To avoid local optima, hill-climbing algorithms are often combined with random restarts and/or tabu lists. The latter prevents the algorithm from reversing the \\(k\\) most recent perturbations.
+
 
 
 
@@ -62,3 +140,28 @@ Nodes represent variables and edges (link) represent influence. Graphical models
 
 [^fn3]: Example based on [STAT504 - Analysis of Discrete Data](https://onlinecourses.science.psu.edu/stat504/node/112)
 
+[^fn4]: Example based on [Wikipedia](https://en.wikipedia.org/wiki/Bayesian_network})
+
+[^fn5]: Pearl, J. (1988). Probabilistic reasoning in intelligent systems: networks of plausible inference. Morgan Kaufmann Publishers Inc.
+
+[^fn6]: Spirtes, P., Glymour, C. N., Scheines, R., Heckerman, D., Meek, C., Cooper, G., & Richardson, T. (2000). Causation, prediction, and search. MIT press.
+
+[^fn7]: Scheines, R. (1997). An introduction to causal inference. In McKim, V. R. and Turner, S. P. (Eds.), Causality in Crisis? Statistical Methods and the Search for Causal Knowledge in the Social Sciences (pp. 185-200). University of Notre Dame Press.
+
+[^fn8]: Koller, D., & Friedman, N. (2009). Probabilistic graphical models: principles and techniques. MIT press.
+
+[^fn9]: Koller, D., & Mehran, S. (1996). Toward Optimal Feature Selection. In Lorenza, S. (Eds.), Proceedings of the Thirteenth International Conference on Machine Learning (ICML) (pp. 284-292). Morgan Kaufmann Publishers.
+
+[^fn10]: Tsamardinos, I., Aliferis, C. F., & Statnikov, A. (2003, August). Time and sample efficient discovery of Markov blankets and direct causal relations. In Proceedings of the ninth ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 673-678). ACM.
+
+[^fn11]: Kohavi, R., & John, G. H. (1997). Wrappers for feature subset selection. Artificial intelligence, 97(1-2), 273-324.
+
+[^fn12]: Tsamardinos, I., & Aliferis, C. F. (2003, January). Towards principled feature selection: relevancy, filters and wrappers. In Proceedings of the Ninth International Workshop on Artificial Intelligence and Statistics. Morgan Kaufmann Publishers.
+
+[^fn13]: Peng, H., Long, F., & Ding, C. (2005). Feature selection based on mutual information criteria of max-dependency, max-relevance, and min-redundancy. IEEE Transactions on pattern analysis and machine intelligence, 27(8), 1226-1238.
+
+[^fn14]: Neapolitan, R. E. (2004). Learning bayesian networks (Vol. 38). Upper Saddle River, NJ: Pearson Prentice Hall.
+
+[^fn15]: Pearl, J. (2000). Causality: Models, Reasoning, and Inference. Cambridge University Press.
+
+[^fn16]: Cooper, G. F., & Herskovits, E. (1992). A Bayesian method for the induction of probabilistic networks from data. Machine learning, 9(4), 309-347.
