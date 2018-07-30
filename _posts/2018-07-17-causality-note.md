@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An introduction to conditional independence, causality and probabilistic graphical models"
+title: "An introduction to conditional (in)dependence, causality and probabilistic graphical models"
 excerpt: "Academic note converted to blog post."
 modified: 2018-07-17
 tags: [causality, pgm, statistics]
