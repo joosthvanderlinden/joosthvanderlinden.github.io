@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The bias trade-off for grantmaking algorithms"
-excerpt: "How do we ensure a shortlisting algorithm is fair? "
+excerpt: "How do we ensure a hypothetical grant application shortlisting algorithm is fair? "
 modified: 2018-04-17
 tags: [white paper, data science, grantmaking]
 comments: false
