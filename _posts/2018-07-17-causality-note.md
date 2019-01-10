@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An introduction to conditional (in)dependence, causality and probabilistic graphical models"
-excerpt: "For the purpose of feature selection in prediction or characterization."
+excerpt: "For the purpose of feature selection in prediction or characterization"
 modified: 2018-07-17
 tags: [causality, pgm, statistics]
 comments: false
