@@ -16,10 +16,10 @@ image:
 I enjoy combining applied mathematics and software development for engineering and data science applications. Currently, I am lucky enough to build on all of these things in my PhD and job as a Data Scientist. I developed my passion for data science by working as a data analyst for a Dutch railway company, analyzing sensor and contractor data. I founded and co-organized the [Melbourne Datathon](http://www.datasciencemelbourne.com/datathon) which attracted 120 data enthusiasts in the first year, over 300 in the second year, over 500 in our 2017 edition, and has since [grown even further](https://twitter.com/girlvsdata/status/1044785749151768576/photo/1?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Ecollection%3A1048040829149835264&ref_url=https%3A%2F%2Fgirlvsdata.wordpress.com%2F2018%2F10%2F08%2Fmy-first-hackathon-dsm-datathon-part-2%2F)!
 
 - Cum laude BSc and MSc in Applied Mathematics from The Delft University of Technology.
-- Currently working towards a PhD at The University of Melbourne, applying machine learning and complex networks to granular, porous media.
+- Recently completed a PhD at The University of Melbourne, applying machine learning and graph-theoretical techniques to fluid flow and heat transfer granular, porous media.
 - Research internships at Schlumberger, IBM and for a small energy consultant (Alboran), where I learned how to connect, communicate and collaborate.
 - Data analytics experience at Keyrail (railway operator), working with sensor data, performance data and dashboards. 
-- Data science experience at Our Community (software company and social enterprise), performing predictive modeling, time series analysis, AB experiments, text analytics, survey analysis and dashboard design.
+- Currently, I am a Data Scientist at Our Community (software company and social enterprise), performing predictive modeling, time series analysis, AB experiments, text analytics, survey analysis, dashboard design & more.
 
 **Ask me about**
 - Data science for fundraising activities (research on [donations](https://www.givenow.com.au/stats) and [grants](https://www.ourcommunity.com.au/grants2017))
