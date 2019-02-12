@@ -15,7 +15,7 @@ Following a recent inquiry by ABC News Northern Territory, I investigated (1) wh
 For further details, refer to the full [blog post](https://www.ourcommunity.com.au/general/general_article.jsp?articleid=7632).
 
 #### Multiple comparisons
-In this investigation, the `statsmodels` function [multicomp.TukeyHSDResults.plot_simultaneous](https://www.statsmodels.org/dev/generated/statsmodels.sandbox.stats.multicomp.TukeyHSDResults.plot_simultaneous.html) provided a very useful way to visualize and compare multiple averages. I found this plot to be particularly useful to demonstrate (a lack of) statistical significance for a non-technical audience. Interval widths are computed using Tukey’s Q critical value. 
+In this investigation, the `statsmodels` function [multicomp.TukeyHSDResults.plot_simultaneous](https://www.statsmodels.org/dev/generated/statsmodels.sandbox.stats.multicomp.TukeyHSDResults.plot_simultaneous.html) provided a very nice way to visualize and compare multiple averages. I found this plot to be particularly useful to demonstrate (a lack of) statistical significance for a non-technical audience. Interval widths are computed using Tukey’s Q critical value. 
 
 
 
