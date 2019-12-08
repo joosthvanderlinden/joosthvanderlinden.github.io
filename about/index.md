@@ -47,7 +47,7 @@ Click on a skill to read more about my experience, or
 
 - <div onClick="openClose_skill('p3')" style="cursor:hand; cursor:pointer"><b>Cloud computing</b></div><div id="p3" class="texter"> 2 years experience. Near-daily use of the Google Cloud Platform, including BigQuery, Compute Engine, Cloud Storage and the AI Platform. Also operationalized a text classifier using AWS Lambda.<br /><br /></div>
 
-- <div onClick="openClose_skill('p4')" style="cursor:hand; cursor:pointer"><b>Matlab</b></div><div id="p3" class="texter"> 7 years experience. Language of choice for quick implementations and prototyping. Used throughout education for linear algebra and numerical analysis.<br /><br /></div>
+- <div onClick="openClose_skill('p4')" style="cursor:hand; cursor:pointer"><b>Matlab</b></div><div id="p4" class="texter"> 7 years experience. Language of choice for quick implementations and prototyping. Used throughout education for linear algebra and numerical analysis.<br /><br /></div>
 
 - <div onClick="openClose_skill('p5')" style="cursor:hand; cursor:pointer"><b>VBA</b></div><div id="p4" class="texter"> 3 years experience. Language of choice for Excel integration. Used to build various data dashboards, and to perform automated reporting and data management. <br /><br /></div>
 
