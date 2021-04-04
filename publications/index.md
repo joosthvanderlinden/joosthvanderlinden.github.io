@@ -16,8 +16,6 @@ image:
 - **J. van der Linden**, J.B. Welsh, I.B. Hirsch, S.K. Garg, "[Real-Time Continuous Glucose Monitoring During the Coronavirus Disease 2019 Pandemic and Its Impact on Time in Range](https://doi.org/10.1089/dia.2020.0649)," Diabetes Technology & Therapeutics, vol. 23, S-1-S-7, 2021.
 
 **Journal papers (PhD)**
-- W. Fei, G.A. Narsilio, **J.H. van der Linden**, M.M. Disfani, "[Network analysis of heat transfer in sphere packings](https://doi.org/10.1016/j.powtec.2019.11.123)," Powder Technology, vol. 362, pp. 790-804, 2020.
-- W. Fei, G.A. Narsilio, **J.H. van der Linden**, M.M. Disfani, "[Quantifying the impact of rigid interparticle structures on heat transfer in granular materials using networks](https://doi.org/10.1016/j.ijheatmasstransfer.2019.118514)," International Journal of Heat and Mass Transfer, vol. 143, pp. 118514, 2019.
 - **J.H. van der Linden**, A. Tordesillas, and G.A Narsilio, "[Preferential flow pathways in a deforming granular material: self-organization into functional groups for optimized global transport](https://doi.org/10.1038/s41598-019-54699-6)," Scientific Reports, vol. 9, pp. 18231, 2019.
 - W. Fei, G.A. Narsilio, **J.H. van der Linden**, and M.M. Disfani, "[Network analysis of heat transfer in sphere packings](https://doi.org/10.1016/j.powtec.2019.11.123)," Powder Technology, vol. 362, pp. 790-804, 2019.
 - W. Fei, G.A. Narsilio, **J.H. van der Linden**, and M.M. Disfani, "[Quantifying the impact of rigid interparticle structures on heat transfer in granular materials using networks](https://doi.org/10.1016/j.ijheatmasstransfer.2019.118514)," International Journal of Heat and Mass Transfer, vol. 143, pp. 118514, 2019.
