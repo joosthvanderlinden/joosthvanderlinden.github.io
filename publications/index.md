@@ -11,7 +11,13 @@ image:
   creditlink: 
 ---
 
-**Journal papers**
+**Journal papers (Dexcom)**
+- **J. van der Linden**, J.B. Welsh, T.C. Walker, "[Sustainable Use of a Real-Time Continuous Glucose Monitoring System from 2018 to 2020](https://doi.org/10.1089/dia.2021.0014)," Diabetes Technology & Therapeutics, pre-print, 2021.
+- **J. van der Linden**, J.B. Welsh, I.B. Hirsch, S.K. Garg, "[Real-Time Continuous Glucose Monitoring During the Coronavirus Disease 2019 Pandemic and Its Impact on Time in Range](https://doi.org/10.1089/dia.2020.0649)," Diabetes Technology & Therapeutics, vol. 23, S-1-S-7, 2021.
+
+**Journal papers (PhD)**
+- W. Fei, G.A. Narsilio, **J.H. van der Linden**, M.M. Disfani, "[Network analysis of heat transfer in sphere packings](https://doi.org/10.1016/j.powtec.2019.11.123)," Powder Technology, vol. 362, pp. 790-804, 2020.
+- W. Fei, G.A. Narsilio, **J.H. van der Linden**, M.M. Disfani, "[Quantifying the impact of rigid interparticle structures on heat transfer in granular materials using networks](https://doi.org/10.1016/j.ijheatmasstransfer.2019.118514)," International Journal of Heat and Mass Transfer, vol. 143, pp. 118514, 2019.
 - **J.H. van der Linden**, A. Tordesillas, and G.A Narsilio, "[Preferential flow pathways in a deforming granular material: self-organization into functional groups for optimized global transport](https://doi.org/10.1038/s41598-019-54699-6)," Scientific Reports, vol. 9, pp. 18231, 2019.
 - W. Fei, G.A. Narsilio, **J.H. van der Linden**, and M.M. Disfani, "[Network analysis of heat transfer in sphere packings](https://doi.org/10.1016/j.powtec.2019.11.123)," Powder Technology, vol. 362, pp. 790-804, 2019.
 - W. Fei, G.A. Narsilio, **J.H. van der Linden**, and M.M. Disfani, "[Quantifying the impact of rigid interparticle structures on heat transfer in granular materials using networks](https://doi.org/10.1016/j.ijheatmasstransfer.2019.118514)," International Journal of Heat and Mass Transfer, vol. 143, pp. 118514, 2019.
@@ -20,14 +26,21 @@ image:
 - **J.H. van der Linden**, T.B. Jönsthövel, A.A. Lukyanov, and C. Vuik, “[The parallel subdomain-levelset deflation method in reservoir simulation](http://dx.doi.org/10.1016/j.jcp.2015.10.016),” Journal of Computational Physics, vol. 304, pp. 340–358, 2016.
 - R. Weijermars and **J.H. van der Linden**, “[Assessing the economic margins of sweet spots in shale gas plays](http://www.fb.eage.org/publication/content?id=65623),” First Break, vol. 30, no. 12, pp. 99–106, 2012.
 
-**Conference publications**
+**Conference publications (Dexcom)**
+- [abstract] **J. van der Linden**, J.B. Welsh, S.A. Puhr, "Variations in Time in Range Assessed by CGM in the Early COVID-19 Pandemic", Diabetes Technology Meeting, 11 November 2020.
+- [abstract] **J. van der Linden**, J.B. Welsh, A.S. Parker, "Regional COVID-19 Disease Burden and Individual Changes in Glycemic Control", Diabetes Technology Meeting, 11 November 2020.
 
+**Conference publications (PhD)**
 - [paper] **J.H. van der Linden**, A. Tordesillas, and G.A Narsilio, "Testing Occam’s razor to characterize high-order connectivity in pore networks of granular media: Feature selection in machine learning," in Powders & Grains, 3-7 July 2017.
 - [abstract] M.M. Disfani, G.A. Narsilio, T. Afshar, and **J.H. van der Linden**, "Synchrotron Tomography in Geotechnical Engineering Applications," in Australian Synchrotron User Meeting, 24-25 November 2016.
 - [abstract] **J.H. van der Linden**, G.A Narsilio, A. Tordesillas and T.S. Yun, “Predicting conduction parameters in porous media,” in EMI 2015 Engineering Mechanics Institute Conference, 16-19 June 2015.
 - [extended abstract] A.A. Lukyanov, **J.H. van der Linden**, T.B. Jönsthövel, and C. Vuik, “[Meshless Subdomain Deflation Vectors in the Preconditioned Krylov Subspace Iterative Solvers](http://www.earthdoc.org/publication/publicationdetails/?publication=77374),” in ECMOR XIV - 14th European Conference on the Mathematics of Oil Recovery, 8-11 September 2014.
 
 **Talks**
+- Challenge4ClimateAction Datathon, March 2021
+- Sensor Summit, February 2021
+- Diabetes Technology Meeting, November 2020
+- Infrastructure Engineering Postgraduate Conference, November 2017
 - Data Science Melbourne Meetup, February 2017
 - RMIT University Analytics, Statistics and Operations Research, and Data Science Industry Talk and Networking Night, February 2017
 - The Third Statistical Mechanics of Soft Matter Meeting, November 2016
