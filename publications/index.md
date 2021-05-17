@@ -21,6 +21,7 @@ image:
 
 **Journal papers (MSc & PhD)**
 - **J.H. van der Linden**, G.A Narsilio, and A. Tordesillas, "[Thermal conductance network model for computerised tomography images of real dry geomaterials](https://doi.org/10.1016/j.compgeo.2021.104093)," Computers and Geotechnics, In Press, 2021.
+- W. Fei, G.A. Narsilio, **J.H. van der Linden**, M.M. Disfania, X. Miao, B. Yang, and T. Ashfard, "[X-ray computed tomography image and network data of sands under compression](https://doi.org/10.1016/j.dib.2021.107122)," Data in Brief, In Press, 2021.
 - W. Fei, G.A. Narsilio, **J.H. van der Linden**, and M.M. Disfani, "[Network analysis of heat transfer in sphere packings](https://doi.org/10.1016/j.powtec.2019.11.123)," Powder Technology, vol. 362, pp. 790-804, 2020.
 - **J.H. van der Linden**, A. Tordesillas, and G.A Narsilio, "[Preferential flow pathways in a deforming granular material: self-organization into functional groups for optimized global transport](https://doi.org/10.1038/s41598-019-54699-6)," Scientific Reports, vol. 9, pp. 18231, 2019.
 - W. Fei, G.A. Narsilio, **J.H. van der Linden**, and M.M. Disfani, "[Quantifying the impact of rigid interparticle structures on heat transfer in granular materials using networks](https://doi.org/10.1016/j.ijheatmasstransfer.2019.118514)," International Journal of Heat and Mass Transfer, vol. 143, pp. 118514, 2019.
